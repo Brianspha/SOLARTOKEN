@@ -1,0 +1,22 @@
+{
+  "0xea300eba2857233459af2cab703f0768df15a0fe3ce361c0af139f678ae63090": {
+    "contracts": {
+      "0xd8a533949c5af0f4fe996cfdeae7c62e9563f9e7bf739cda359a26d690161cc0": {
+        "name": "SafeERC20",
+        "address": "0x63469b6fEa71161F7Bd434C18f936a36b1EFC492"
+      },
+      "0x331b1c2a912f53f92f9ecedab017fa799eaf0e544efba5e4abeb52709274ca35": {
+        "name": "ERC20",
+        "address": "0x24fb6396DCd555865a52Cf8fF722240ee884c8cF"
+      },
+      "0xc3e19d3e8c58eb99aab1a8d026a2d8ca64298cf809f1e682e9b2155b6a80dad2": {
+        "name": "SafeERC20",
+        "address": "0xf9Ff83e2315178C4904eAD810FBA6A5b4442CD81"
+      },
+      "0x0149b04ec4c400583e6c17ad79b9f3b489426f3ce7434b47580d733d733d3663": {
+        "name": "ERC20",
+        "address": "0x85cf36a78d2E9fb8006F4732cb1970288381cdF3"
+      }
+    }
+  }
+}
