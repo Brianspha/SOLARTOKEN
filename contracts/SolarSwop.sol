@@ -8,6 +8,10 @@ import "./IERC20.sol";
 import "./SafeERC20.sol";
 import "./PlatformToken.sol";
 
+/**
+*@dev purpose of contract is allow the admin to add and remove tokens on the platform
+ as well as allow people to purchase and trade tokens that are added to the platform
+ */
 contract SolarSwop is HelperFunctions {
     using SafeMath
     for uint256;
