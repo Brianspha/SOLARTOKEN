@@ -54,6 +54,8 @@ contract XEUASToken is ERC20Mintable, HelperFunctions, Ownable {
      * allows to purchase a certain amount of tokens
      * based of the number ether they have sent to the 
      * contract
+     to get the number tokens user buys 
+      (msg.value which is in wei/the price per token)multiplied by the number of decimal places
      */
     function BuyTokens() external payable {
         require(msg.sender != address(0), "Invalid sender address");

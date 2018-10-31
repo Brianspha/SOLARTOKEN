@@ -33,7 +33,7 @@ contract XSSToken is ERC20Mintable, HelperFunctions, Ownable {
 
 
     /** @dev Token allocation ratios 
-    * @dev the number of tokens is multiplied by the number of decimals i.e. 18 hence 10**18 
+     * @dev the number of tokens is multiplied by the number of decimals i.e. 18 hence 10**18 
      */
 
     uint256 foundersAllocation = (350000000 * (10 ** 18));
@@ -77,13 +77,15 @@ contract XSSToken is ERC20Mintable, HelperFunctions, Ownable {
      * allows to purchase a certain amount of tokens
      * based of the number ether they have sent to the 
      * contract
+     to get the number tokens user buys 
+      (msg.value which is in wei/the price per token)multiplied by the number of decimal places
      */
-     function BuyTokens() external payable {
+    function BuyTokens() external payable {
         require(msg.sender != address(0), "Invalid sender address");
         require(msg.value > 0, "Insufficient funds to purchase tokens");
-        totalWeiRaised+=(msg.value*10**18);
-       //  emit TokensPurchased(totalWeiRaised);
-        uint256 noOfTokens = msg.value.div(price)*10**18;
+        totalWeiRaised += (msg.value * 10 ** 18);
+        //  emit TokensPurchased(totalWeiRaised);
+        uint256 noOfTokens = msg.value.div(price) * 10 ** 18;
         _transfer(creator, msg.sender, noOfTokens);
         //creator.transfer(msg.value); //@Dev send the ether to the creator of the token
         emit TokensPurchased(noOfTokens);
@@ -94,7 +96,7 @@ contract XSSToken is ERC20Mintable, HelperFunctions, Ownable {
         _;
     }
     //===============================================================
-// =======================To be reviewed=====================================
+    // =======================To be reviewed=====================================
     function getWeiRaised() public view returns(uint256 amount) {
         return totalWeiRaised;
     }
