@@ -32,7 +32,9 @@ contract XSSToken is ERC20Mintable, HelperFunctions, Ownable {
     /*========================================================================== */
 
 
-    /*@Dev Token allocation ratios  */
+    /** @dev Token allocation ratios 
+    * @dev the number of tokens is multiplied by the number of decimals i.e. 18 hence 10**18 
+     */
 
     uint256 foundersAllocation = (350000000 * (10 ** 18));
     uint256 advisorsAllocation = (87500000 * (10 ** 18));
@@ -92,7 +94,7 @@ contract XSSToken is ERC20Mintable, HelperFunctions, Ownable {
         _;
     }
     //===============================================================
-
+// =======================To be reviewed=====================================
     function getWeiRaised() public view returns(uint256 amount) {
         return totalWeiRaised;
     }

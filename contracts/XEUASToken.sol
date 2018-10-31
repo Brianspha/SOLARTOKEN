@@ -21,7 +21,7 @@ contract XEUASToken is ERC20Mintable, HelperFunctions, Ownable {
     address creator;
     /*============================================ */
 
-    //@Dev total supply of tokens
+    //@Dev total supply of tokens multiple the number of tokens by the number of decimal places i.e. 10**18
     uint256 TotalSupply = (3500000000 * (10 ** 18));
 
     //@Dev constructor
