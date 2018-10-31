@@ -5,7 +5,7 @@ module.exports = {
     available_providers: ["whisper"], // Array of available providers
     connection: {
       host: "localhost", // Host of the blockchain node
-      port: 8546, // Port of the blockchain node
+      port: 8556, // Port of the blockchain node
       type: "ws" // Type of connection (ws or rpc)
     }
   }

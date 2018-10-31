@@ -11,11 +11,1539 @@
       },
       "0xc3e19d3e8c58eb99aab1a8d026a2d8ca64298cf809f1e682e9b2155b6a80dad2": {
         "name": "SafeERC20",
-        "address": "0xf9Ff83e2315178C4904eAD810FBA6A5b4442CD81"
+        "address": "0xfF548934be701Dd4164dA2064e533c8583fD2107"
       },
       "0x0149b04ec4c400583e6c17ad79b9f3b489426f3ce7434b47580d733d733d3663": {
         "name": "ERC20",
-        "address": "0x85cf36a78d2E9fb8006F4732cb1970288381cdF3"
+        "address": "0x3599215Efab1a09dFb54a52b75390a9Cd25E8124"
+      },
+      "0x6b472043623ffa4378e64cd5ea3dcb2ecef8d6fc27d2803dc4236b704058a88a": {
+        "name": "ERC20Mintable",
+        "address": "0x0C20ed07a05BA3c50e00E67B62F18e0e5A5653e1"
+      },
+      "0xfe1c52806c789e0529fa786d82a3d72b46d415b071a899f33404f300c53b2bca": {
+        "name": "ERC20Pausable",
+        "address": "0xfa705866996e4ADf77D4A8c0Be065E40392784e8"
+      },
+      "0xcfb3dd4540c9324b8592e3c302b12281946d5122a7ed73c81f42f62a5d0318d5": {
+        "name": "HelperFunctions",
+        "address": "0x37da81a66949a670cd6DEa0dE43A03b2e8261692"
+      },
+      "0xdd353e2bcd0d80e38729e7ffa8206eb8b2827150d03fa3e7c5f623f4b22a1fb9": {
+        "name": "ERC20Burnable",
+        "address": "0x5Caf966EDdCC93b4a3EdA3982bD2c8669c029D5d"
+      },
+      "0x8194b0252fe30aa52cbaee93d6dcf982e512b89889a2f0a54b0f3fd6787418ee": {
+        "name": "ERC20Capped",
+        "address": "0x9f4775967D7D774Ff236808726723164e9A747ec"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x1B291d38168D2C5819Fec3D9e8790BEE4c6b73E0"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0xB0FE97516452d7f753Ede3C507b3c6E421640121"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0xdcbCcf3c50535CbeBC65B1A846301F2767230F40"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x38782B589EB18894b1fbceb44c0c538922f2CEE8"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0xFabc0901A41D90E3A3B2FF87b48C95d1BA001787"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0x49f7b9AA2eda8A6584401eB14Aa4aa4bD4dd2031"
+      },
+      "0x16291f04f74773ae54ed61388e7c2b8cbe9a05a14273638c3af35d8bc790286e": {
+        "name": "XESToken",
+        "address": "0x4Dd8998DB159465921eF4249e060cEBE10E34B1A"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0xCA9291F5CD1908624289F05A12c86B41E3191e0E"
+      },
+      "0x2e4e2856512f507b49d6d790c3768325023894a86470291fcb445ba9c79fcf23": {
+        "name": "SafeERC20",
+        "address": "0x2265FCe632060707A1cb2A6a99b72e8E8089c145"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x7B4A362af033F2CE5FA356Ee34C536D1fcE11996"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0xb2edF4C8c473DD0Ab0DAe183443E9DCE7386DA4d"
+      },
+      "0x888a3433c07e9dfdb9fa9eaf34ce92cf860e4108a5b2dc400e58a9903d364b2f": {
+        "name": "ERC20Mintable",
+        "address": "0xda923410f120c9D339917EeC4dcc8789FE24160e"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0x73d7414C765715e513CCEb13da52672555799a6E"
+      },
+      "0x587343f50b55f5ed4a23783f8135b434ae2331a48ac9d3a986efb4936b13c4cf": {
+        "name": "ERC20",
+        "address": "0x72D2c6E5E12E1EEd82eDc77B3d820D30893AD610"
+      },
+      "0xc9b67c48f927c6c9f1370ca30e434d94f151e952f37b59c5bf294952e83ca9e8": {
+        "name": "XESToken",
+        "address": "0xCa9CE5564c0E1c2FbbE51959db01C99433c011A8"
+      },
+      "0x85c6e99f64598272d7e702efe5e68cc3ea3f6c66d5be1f035432d2730eaea42d": {
+        "name": "XESToken",
+        "address": "0x0fE8261Ce7EC26114A483f31fc4EE3f7C4d737Df"
+      },
+      "0x098d4351f974ad26db52829e4b4b8d5247e2ecbb5adbdc0ef4ca36e509d13860": {
+        "name": "XESToken",
+        "address": "0x60e44dd2355672dA60679B4cfa2060F0dd4B6f9f"
+      },
+      "0x50983be7aa8b1c73fccdad33803ae4bd45d673b1411d02fa4318eb33675e5987": {
+        "name": "XESToken",
+        "address": "0x1c21eC1A9d9A6DFbd9f479361B06991AAC0a7a10"
+      },
+      "0x26d0dfdef6688208365364f78e707c612963ca4b3944ea8d22d5bcf43cd187b8": {
+        "name": "XESToken",
+        "address": "0x4C4909Df8530C30D25fB778f3523034EeD12C883"
+      },
+      "0xdcd6bb660a23f0abf5034baf2f0a646ec4fd769877b53d54b2026cdf33502e55": {
+        "name": "XESToken",
+        "address": "0xFfaC64CC0A630cccb80d079dCbb7751C9a79f14E"
+      },
+      "0xbe9dab3ba56cc102b7f7df6445b5b32345aa0ad0e41aa8f32cae6aded51682c1": {
+        "name": "XESToken",
+        "address": "0xdfa2C1f4F5dFF351f343e0e7116e2E6EeAa22b16"
+      },
+      "0x13e348a0e95ada5fd55a99c06868d9460a0259dc001d3ff05b3653a3fb75a606": {
+        "name": "XSSToken",
+        "address": "0x1Cd4f5BF609486cd06f3FFa409a2CB72cfCF749A"
+      },
+      "0x8c97c1c76e2e24c4f9fdb3d8728db5c69a461f5e64aeaccfef8c95023da3e45d": {
+        "name": "XSSToken",
+        "address": "0xcc5b2520f7dEf9f22B56B8b505c7D19B71648f03"
+      },
+      "0x43ab3c171e7c762ef644a40730aba45dd54efefba7640c6be9dd04d903831362": {
+        "name": "RefundEscrow",
+        "address": "0x586111747870cDD26CF6b15aD33037E4dA7Bd0E1"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x178A4d9f5A3AD65350879b927e34c2aA739C6F6e"
+      },
+      "0x0b0de1420a373ba18bdeae4ca48ff08e7116feb14af17abf1e33c0fabb464b9c": {
+        "name": "ERC20",
+        "address": "0x57F5cb8F494570Ef2c023f7f632cb115C297F603"
+      },
+      "0x8e0bfd9253ee3145c865782d2249f51e912876ae0fa21f08e8c0f12b8ee2587e": {
+        "name": "ERC20Mintable",
+        "address": "0xfD462e8C7f0fEa60A8371d94228Ad196A473EaB2"
+      },
+      "0x8ba10dc6211db14652e674c370235a06349773696f866b4d2a2406db1350aaea": {
+        "name": "SafeERC20",
+        "address": "0x7dcA7B7094a995a03ce43746a4538992d7e55a05"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x240Fcd6c6Ac77B5A0dAEE784f661902e30611262"
+      },
+      "0xe957c6c3d04a7d3108ba10d358f1a524d45cfc0e49e8d8afc5d382b10bfc36a3": {
+        "name": "XSSToken",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0x855b20559a8f93ff86ce02df7266f63b6bf2955e27d6f2487d437fb80d3a539e": {
+        "name": "Crowdsale",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0xd974f928bfdbf8f75c8bf379a4e634334606a0707981ee680425fa3d51d0f141": {
+        "name": "ERC20Capped",
+        "address": "0x9FF837192910c0f19C91dd77149664a9Ea17FeB5"
+      },
+      "0x04555371cf48b31db05dbaf355a07c4fff65d04d3d74456a3a73bb26512fff2e": {
+        "name": "BokkyPooBahsDateTimeLibrary",
+        "address": "0x1CEBA0CC2914FDA975AcD4648B1449433605c570"
+      },
+      "0x082a6145f864e06fe10b5ef29a80954b2828b7088aacbc052876b9accc16b242": {
+        "name": "DateTime",
+        "address": "0x25e7b66EE9D102AaA039aB041945E365CF0742fC"
+      },
+      "0x58099995f5547ba63dd00891878a760ca7ff5389bce96fba2d56eb5145377b98": {
+        "name": "ERC20",
+        "address": "0xEe26c21A4eEEDFE349B160228672628D901f8fE3"
+      },
+      "0x864cdb29e2c3442128abf04271d626b2fc51c5960105bf71e92d5aa6237f19a9": {
+        "name": "ERC20Burnable",
+        "address": "0x142b6030d8E11f8460968922c209B0857234a192"
+      },
+      "0xb7bd6eb12f308ef0bef7f0d3e3efd5b1d7e6c7d4dd5dc0501b8c5ea46d3ffe5d": {
+        "name": "ERC20Mintable",
+        "address": "0xA9FB62fd3C75aE9cCB077703a639Cef6f399D293"
+      },
+      "0x3cbf017e69493135dc462d82e809f6d056b6a3c44be27de5e678430c5a717847": {
+        "name": "ERC20Pausable",
+        "address": "0x65883543e2dB0e6363Bb57C7357B1D758920a093"
+      },
+      "0x4dd157f27147bb3b6e511d86caead4c221c1ee201e3c595d8b726e97fe6688c4": {
+        "name": "HelperFunctions",
+        "address": "0x877a73Ae024a43062818eD713174Ad1C3127e2E3"
+      },
+      "0x645d806fe15e6495b9555318a68d28974702f76d0e5ead4a1cadc0b3ca55baf1": {
+        "name": "HelperFunctions",
+        "address": "0x740703438Bb0D652a0156977A35a2417bcD35fcD"
+      },
+      "0x68cc22434b5fe302bf8760c16ca92f606650b915a19e7cdb9f02625feccea9bb": {
+        "name": "SafeERC20",
+        "address": "0x8F6fED01213d3f0BfdB67A947F5A85D85f269E76"
+      },
+      "0x4b78646571d79693aa694529e754b69107fe2485eb9a5462d9d672f28ba04943": {
+        "name": "TestDateTime",
+        "address": "0xEc8C2855F7A2fCbFafCaEdC16d8aeDAB0C145589"
+      },
+      "0x9b209ee9436ace4880b0c14cb165b9e0b845de3ba475369569c8749311afa7a9": {
+        "name": "XEUASToken",
+        "address": "0x7b995f3d8E88BD047d82957cA38dA8a42FC840C3"
+      },
+      "0xbe809c20d1449cc22e6bcca6a1963ddaeef5704c335487c48a03290c800c3efd": {
+        "name": "XSSToken",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0xfbc0c696208b2ea67f24f075e8e149c45d9323fed5276fb7cd55625221625bff": {
+        "name": "SolarSwop",
+        "address": "0x2E2632e51fccc8C8E2B277377a12988c656f46Fb"
+      },
+      "0x86db6e551c1ad1a5004905914878cd7fdaefd439ca42d942a27e78c846ff10c2": {
+        "name": "SolarSwop",
+        "address": "0x758adAe114154B8ff6782c0517BDB1637b13df9a"
+      }
+    }
+  },
+  "0xd7d2472e92477c1e47137691666be34315df564171b6584fd49c7488f2743305": {
+    "contracts": {
+      "0x2e4e2856512f507b49d6d790c3768325023894a86470291fcb445ba9c79fcf23": {
+        "name": "SafeERC20",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0xfD31b5cE21e86b2B0275d87c1Bae5E43607Fc5Fe"
+      },
+      "0x888a3433c07e9dfdb9fa9eaf34ce92cf860e4108a5b2dc400e58a9903d364b2f": {
+        "name": "ERC20Mintable",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      },
+      "0x587343f50b55f5ed4a23783f8135b434ae2331a48ac9d3a986efb4936b13c4cf": {
+        "name": "ERC20",
+        "address": "0x5Baf4D88bC454537C51CEC7568a1E23400483abc"
+      },
+      "0x8c97c1c76e2e24c4f9fdb3d8728db5c69a461f5e64aeaccfef8c95023da3e45d": {
+        "name": "XSSToken",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x2e465c6170720cE7AF68Cfc0bDB4208fc28833D8"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x2051D39a6220F6126c33DcfaCc72465b6b57cB5d"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x92FD271DB21c6Fb633EC540E440fe3DcB3E60779"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0xE79D974F3Ca6A47430af521D0440d79405f3CaC4"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x2e6242a07Ea1C4E79ecC5c69a2dccaE19878a280"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0xF7f3C7510F1E072d7D21D43D7580952Db3230286"
+      },
+      "0x9c0499f341cb1e12d94712f777c125167cc8b229bd33002b6996e39a92c4bf29": {
+        "name": "XSSToken",
+        "address": "0x931CA074De8B69B71315C8d4E8EFa3B92cA464bc"
+      },
+      "0xa5f7dc5da63f00db0aee29426bec24f84ed37a381d0466aa5d25c1e283735eb5": {
+        "name": "XSSToken",
+        "address": "0xFf22741dea1254c802120D48E295a0f5AdDf05e9"
+      },
+      "0x2195b1ce415a286688f6aeb379b31e1d609fcaeab183cf7f9e098cfebc9c1558": {
+        "name": "XSSToken",
+        "address": "0x1FE36f7FB2FB6Ba092b5A8E41dd8a133F62ab3f8"
+      },
+      "0xbc916d8ae2981f81ee995bfa17183f07ff5e0a2aa8ef65b9ce8bd703859dc7e3": {
+        "name": "XSSToken",
+        "address": "0xf7dEF30e46B2A1cd8BC36Ce46957591E88D5863e"
+      },
+      "0xfb8f4ba0682903279f11799aa185fa63a0a4ce0600c4549f6dac714532ad2b62": {
+        "name": "XSSToken",
+        "address": "0x35d40Dfb8A44130D60410eCD8dD3BBa6b0AE77ff"
+      },
+      "0xc7e533ab194bae34b6718c7b28775b7076db2225aea09db988cdff8f82f33ee5": {
+        "name": "XSSToken",
+        "address": "0xFBA961F78348c56dFA9cDd057214C661e42Fa289"
+      },
+      "0x19c03e98dcf989966a538d69783dc536a2c34f5309910175a8af60d5da0e981f": {
+        "name": "XSSToken",
+        "address": "0x7fDB210C63e85Dc58532ebbd79f306957b3DDCF3"
+      },
+      "0x918e406a4e1dccae1265adaf0b36e544d9dd9516c7c234de11a0aedec598e302": {
+        "name": "XSSToken",
+        "address": "0xB0F073213D541263dE27FA56978c3f16818eAdAb"
+      },
+      "0x6dfd6def8aad283590cd587925e7889ec8a43f72ba6c704624abd10ec3ae0955": {
+        "name": "XSSToken",
+        "address": "0xd1036C95f7c006b04A71a89a90f80Bb3a07De9B6"
+      },
+      "0x1adcad2e7fec650e1b033e4f0291a2c7dbcfb929be8cb075aa0933ab854523fe": {
+        "name": "XSSToken",
+        "address": "0x34F198D04bBF9042D25a8554384f79134d84b05b"
+      },
+      "0x71561eec27d536108ec30a4184511cf65aeaffd00564e81cbf2f9435613fc46d": {
+        "name": "XSSToken",
+        "address": "0x7f847A6DB3D81862c69E0ff7875903f3E51E2413"
+      },
+      "0x6639e4d73b98ba3d53d6329007c614e81cc8bf380f73634c34659f78b0ae7033": {
+        "name": "XSSToken",
+        "address": "0x542c69AdC89eC10fAf57Ad0FDbdbe21bb86E2b9b"
+      },
+      "0xd3db4e89be8a6c71c0b5a4220e15a65d94d36743192494fc8fcf98f9d8939ccd": {
+        "name": "XSSToken",
+        "address": "0xf1a7a38fa141a82F8262FE19e2B1057355e3b645"
+      },
+      "0xc8cebe3d1ee57b6ed816813daef310cfa6ae71ae9d20fc62354fc92c7bf8aef4": {
+        "name": "XSSToken",
+        "address": "0x6E26edBDCC073fCDB00B42eE697ae7864df0c1da"
+      }
+    }
+  },
+  "0x9f9c4b662ee5b3a9f7153eb874f024030f5dc62ef383722053ee96ffbdda3589": {
+    "contracts": {
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0xe5731c3df7a510fba6c5b2766251ce631C6B1d78"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0x6427A6200Bed37FC1e512BdeA49D25Aa9089CF47"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0xe68fb1fec7e8f22b2670be0b7fad6e4b31c7db254c6d5fb2e36094f7a0b93458": {
+        "name": "SolarSwop",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      },
+      "0xa3edb23adcb2ed787028ef8ebe07d32f001c4c561f1bef6b22a916ab08d3214d": {
+        "name": "XSSToken",
+        "address": "0xfD31b5cE21e86b2B0275d87c1Bae5E43607Fc5Fe"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x5Baf4D88bC454537C51CEC7568a1E23400483abc"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      },
+      "0xa2723364a357903aa08adc126545505a0bd3dc1aec3f02e34d4ff6a815df4ba4": {
+        "name": "SolarSwop",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      }
+    }
+  },
+  "0x86dfd98ee3ed77f043463e9d41583bb62ef4ff51db8f285c5e05c0a3321e329d": {
+    "contracts": {
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0xe5731c3df7a510fba6c5b2766251ce631C6B1d78"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0x6427A6200Bed37FC1e512BdeA49D25Aa9089CF47"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xfD31b5cE21e86b2B0275d87c1Bae5E43607Fc5Fe"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0xa2723364a357903aa08adc126545505a0bd3dc1aec3f02e34d4ff6a815df4ba4": {
+        "name": "SolarSwop",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0xCD4FDdEE65339F5B1F3c46b3713Ed2D048D8a7f2"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x5Baf4D88bC454537C51CEC7568a1E23400483abc"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x2e465c6170720cE7AF68Cfc0bDB4208fc28833D8"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x2051D39a6220F6126c33DcfaCc72465b6b57cB5d"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x92FD271DB21c6Fb633EC540E440fe3DcB3E60779"
+      },
+      "0x43ab3c171e7c762ef644a40730aba45dd54efefba7640c6be9dd04d903831362": {
+        "name": "RefundEscrow",
+        "address": "0x2e6242a07Ea1C4E79ecC5c69a2dccaE19878a280"
+      },
+      "0xa3edb23adcb2ed787028ef8ebe07d32f001c4c561f1bef6b22a916ab08d3214d": {
+        "name": "XSSToken",
+        "address": "0xF7f3C7510F1E072d7D21D43D7580952Db3230286"
+      },
+      "0xa2c319304da1a198af801c0e3a5789261e3f602ef4d9e0698637b323eb3987ea": {
+        "name": "Crowdsale",
+        "address": "0x931CA074De8B69B71315C8d4E8EFa3B92cA464bc"
+      },
+      "0x388f6fbd1e93b0839f4fca6e377cb6a02e153c12ed2282ca59161e94a5776a42": {
+        "name": "SolarSwop",
+        "address": "0xFf22741dea1254c802120D48E295a0f5AdDf05e9"
+      },
+      "0xe14a46b09ed9dc35456151b2f643bd999c73569cea19e58a9e805373e63b1188": {
+        "name": "XSSToken",
+        "address": "0x1FE36f7FB2FB6Ba092b5A8E41dd8a133F62ab3f8"
+      },
+      "0xc9fd6c172c72c95d3038344b8754ce2ea1dd5400c348b1bdace29f7ca0b2a8aa": {
+        "name": "Crowdsale",
+        "address": "0xf7dEF30e46B2A1cd8BC36Ce46957591E88D5863e"
+      },
+      "0x329300292ea6413e57ac0cc498cc5c5f55603c729c3dbed9bc0089f4b9f7ceb0": {
+        "name": "XSSToken",
+        "address": "0x35d40Dfb8A44130D60410eCD8dD3BBa6b0AE77ff"
+      },
+      "0x3548d3686443d3245ac390d8ad1c37e66450ac7a8bc52aff1da6cb23f017a001": {
+        "name": "Crowdsale",
+        "address": "0xFBA961F78348c56dFA9cDd057214C661e42Fa289"
+      },
+      "0xb2a097430dbde41c67fdd8b69984267f2ac1545851d95e88dd03ee9595205347": {
+        "name": "XSSToken",
+        "address": "0x7fDB210C63e85Dc58532ebbd79f306957b3DDCF3"
+      },
+      "0x7e3b2dc6cb166f5ebbdddc0637ed329acc131deb5a37d305d074f8da06f91028": {
+        "name": "XSSToken",
+        "address": "0xd1036C95f7c006b04A71a89a90f80Bb3a07De9B6"
+      },
+      "0x2cc2b2151ca41b1f0cd0b5394af83226c99bb00c857cc3f18386bf90ca95cad4": {
+        "name": "Crowdsale",
+        "address": "0x34F198D04bBF9042D25a8554384f79134d84b05b"
+      }
+    }
+  },
+  "0x1fb34ca865da3ae2546415760791479d048e7261fc64e49fa0a0ac8c902f4891": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0xe8F34d628878De0B5326237b0E2a2076944e05ff"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x0C44D853B174EB66bD9cEbf362c572e873338CBa"
+      },
+      "0x43ab3c171e7c762ef644a40730aba45dd54efefba7640c6be9dd04d903831362": {
+        "name": "RefundEscrow",
+        "address": "0x2b63F4dF855E9098f9eC8Ce3448D8789f7deBa90"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x81B33f6EfaE1074D69E10deE65b42284b9d2F65B"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0x8219f2BcaA0C62528f61db65BE3D71e8A5Fe8f92"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0xc02974ccCDD0a494eB640f030c54235deB63d9fe"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x91fa9540B2342F6A638d4b1Ca776b09dC2bB5d5a"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0xE506F87B2AE123084Fe0EC4E4222129dc54Fa25d"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xFD78d1ab7eB6a1Dd295bC36B6b3DF9c32dEC5e82"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0x481acB63ed57C41Ad2a1431D3B7ceA0AF93BC8Ad"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0xC10E9fC99cD6C007787be62D8A296eBAC61f5558"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x92782332284b3FD0A99673fd00690FF4f296499b"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x96A5Ab9be5E5cAAE94cFC29E2f4af39d0BEb0EC8"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0xff960999380351d155ef21fEB11F875352028ab0"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x43235B8C8569c7E47114ead29Fc5bf483b85A5E8"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x2e24f7E520D80b94E0071586F77404fa6CD61D59"
+      },
+      "0xe9dab73806f8759ce386a2ceffadbc851c1e009f9021dca7a3314a114cba1e3c": {
+        "name": "RefundEscrow",
+        "address": "0xD1205F2eD4dB72D6B6E0048F99533dCE076328e9"
+      },
+      "0x7e3b2dc6cb166f5ebbdddc0637ed329acc131deb5a37d305d074f8da06f91028": {
+        "name": "XSSToken",
+        "address": "0x0ebFb21BB26974b396a25fbE544168713C010c6e"
+      },
+      "0x62321e964a228566e54cc4389b75977e96666293a891a8a79ae84c00025ec70a": {
+        "name": "XSSToken",
+        "address": "0xa899eE769f35619b4d4804FeDb698d5946c5f50c"
+      },
+      "0x8e673b18a31e97c3386f11e3544b401510824f390cc06f07447ccb18bce1c683": {
+        "name": "XSSToken",
+        "address": "0xD36a66D76B60d3A754431aC242217f8Ce9d1763A"
+      },
+      "0x8841c2f03e95309be97bf138b6ccf13f5c4568a853a7543f617805086f8c0bd3": {
+        "name": "SolarSwop",
+        "address": "0x32B1D162Db50341E048b8Bd60Aab6Ea8d533b238"
+      },
+      "0xbdfdf2961de25115a5205a6c37488b5014754fc664a749ab64a75dcce429a999": {
+        "name": "Crowdsale",
+        "address": "0xecfB30E44245c5C9F2bB1D38e63D193B06519E7C"
+      },
+      "0x3c0f2b794ec917c3ee3c8fed2043f3924455cdc7a40e05abebf1dd31a7623b8d": {
+        "name": "XSSToken",
+        "address": "0xa65d24C79B863B13b7c5E8acfD0cBde7D1897882"
+      },
+      "0xfd4f93b7b1022e13827bd268b9ea846eb11108f5f77bc4ff42ea92524b5ebf2d": {
+        "name": "XSSToken",
+        "address": "0x058eE50f2b7846C025Dabb31718C493c8C8457b3"
+      },
+      "0x6bb023bb2ab72570d998a16edd1b5a20bdde296a32d0c937c08103bbe2230dd8": {
+        "name": "XSSToken",
+        "address": "0xdf466BFf559be66621311193E615cd4991099a7E"
+      },
+      "0x455affe2f04e0a4d29dac7ef0babee1ff8180223a559a274b058a97bf6b612b7": {
+        "name": "SolarSwop",
+        "address": "0xD1bFA85E8ed39E094E9fC0ccEBe7C8950BFe1563"
+      },
+      "0x2986023ebba09aa1dcdef747870cc9a07ab39d4b8ce912b35de0c17a88b2348b": {
+        "name": "Crowdsale",
+        "address": "0xfF744684EdE5E1e7828f9ce32D9eC16F703e5756"
+      },
+      "0x1c67c82b462f9af3c041a2e38db92fe2e525745cc1c4193327cc5d9cccf337f8": {
+        "name": "XSSToken",
+        "address": "0xE2361eD14318E26FE3a63F1c32473DaBAd1A70dB"
+      },
+      "0x5640bfe2a99d9c50d1c5d11fb68a20739c31d26ee787190af2c9117f98f62719": {
+        "name": "SolarSwop",
+        "address": "0x059FF3aDC58C2Dca779E72b25518B5BAC8577bCa"
+      },
+      "0x7aebaacaba2c074e325fa4c01ee5f0a28d97ad2e75d1b65e5a0639419d0ad77e": {
+        "name": "Crowdsale",
+        "address": "0xdB5D4E881A9CD77fEBCe10840F1855211DC14492"
+      },
+      "0x1473909241b58186a9c3561628bf3c6ea2997b08e301198dc69b6bd8b35d8db0": {
+        "name": "XSSToken",
+        "address": "0xbFF045E01C3Eb768303E643E87902a57F02991a4"
+      },
+      "0x7de9c28a18e746152d78ab43a1cfe3fa572a4298fc6770a5c2688de8b1a1ba15": {
+        "name": "SolarSwop",
+        "address": "0x3730012a7D204f1b342ac94E776F0487ea547857"
+      },
+      "0x0617ddce55dce90e8eedd63574c9d9cbae472441fcda7c8c3b9d666f84b8f702": {
+        "name": "Crowdsale",
+        "address": "0x41162ac6f348F87703b91598A71275dA6A2518FC"
+      },
+      "0xa84060e32c57792a04e43a90ca372ba04d5bd6fcddc6f576b27b6104d62b9645": {
+        "name": "XSSToken",
+        "address": "0xA9A31882Ee34296C3a1D09f179D28000B45c52f2"
+      },
+      "0x32d921c82c488836a4521c3a409c19ce6cc5b01f6ec66d48ec81fd23e83684cc": {
+        "name": "SolarSwop",
+        "address": "0x25126bd41a1B82C053B231e61078A01C2B3a64Ce"
+      },
+      "0x500d68370ef5c85ed575b4a7cc222351313eba6607522ce1f336d7ba13354998": {
+        "name": "Crowdsale",
+        "address": "0xA82Ed2C13A863a7cc9CbCc4C4C11B2B3456d5fC6"
+      },
+      "0xf621885d912f7468bcda403d332edfd8997c029f6ff6802b33c259cd816d322d": {
+        "name": "XSSToken",
+        "address": "0xFd1ce507a266F638400f544b64d6862C071dCeE8"
+      },
+      "0x0bb6fad9b6373d785abda0b623b06850041079279d76bc7ca68ef0658b7029af": {
+        "name": "SolarSwop",
+        "address": "0x42007DEd6D609FbDfD48D1C2fAe21ab697D43f8e"
+      },
+      "0x3351122ee90ca4a00797f2011809b95577cb4ab04f491241eca87f2be4c63995": {
+        "name": "Crowdsale",
+        "address": "0x77290F95eCB9ff2F1b5A3F7c0eDbB1c7F9fb0A9c"
+      },
+      "0xced8dfff1c5fa7404c305a5bf1ccabaa8afc362fd7d4335d1162b99d76b0f6e8": {
+        "name": "XSSToken",
+        "address": "0xF01a229055F602cf21d6F911eC57149f87F64e85"
+      },
+      "0xb712365e6e86c07f47257a9dcd8d1fcf13f1675631576582e4cfd705bd5b0b7f": {
+        "name": "XSSToken",
+        "address": "0x69a66f77Bec3f88D586fB1e515321EB997381CcE"
+      },
+      "0x205f453da0a9202363a51e5c5bf3527a97cbee06040ad496486034ae43df5591": {
+        "name": "SolarSwop",
+        "address": "0x786C7F4225f5385128FbC44Ef8E5871aA684091D"
+      },
+      "0x9a5b1fd429de55748911ea4560263e22ef1d3658e27558f7a5a9dd19329f43ef": {
+        "name": "Crowdsale",
+        "address": "0xbA625Ef0A795Fc4F20B3e342F4D2E865De3f010B"
+      }
+    }
+  },
+  "0xa439b6691817cee77f0d48fd5f3ea2cb1c04e5e3fec8e0603a64f99ba832fc62": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x52bbb2dd60d7bB6644450c780aC8BF09cD549834"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0xB51D4241E33B24376e7Ae6352D1e2503475700D5"
+      },
+      "0xe9dab73806f8759ce386a2ceffadbc851c1e009f9021dca7a3314a114cba1e3c": {
+        "name": "RefundEscrow",
+        "address": "0x0C44D853B174EB66bD9cEbf362c572e873338CBa"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x2b63F4dF855E9098f9eC8Ce3448D8789f7deBa90"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0x81B33f6EfaE1074D69E10deE65b42284b9d2F65B"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0x8219f2BcaA0C62528f61db65BE3D71e8A5Fe8f92"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0xc02974ccCDD0a494eB640f030c54235deB63d9fe"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0x91fa9540B2342F6A638d4b1Ca776b09dC2bB5d5a"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xE506F87B2AE123084Fe0EC4E4222129dc54Fa25d"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0xFD78d1ab7eB6a1Dd295bC36B6b3DF9c32dEC5e82"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x481acB63ed57C41Ad2a1431D3B7ceA0AF93BC8Ad"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0xC10E9fC99cD6C007787be62D8A296eBAC61f5558"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x92782332284b3FD0A99673fd00690FF4f296499b"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x96A5Ab9be5E5cAAE94cFC29E2f4af39d0BEb0EC8"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0xff960999380351d155ef21fEB11F875352028ab0"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x43235B8C8569c7E47114ead29Fc5bf483b85A5E8"
+      },
+      "0xb712365e6e86c07f47257a9dcd8d1fcf13f1675631576582e4cfd705bd5b0b7f": {
+        "name": "XSSToken",
+        "address": "0x2e24f7E520D80b94E0071586F77404fa6CD61D59"
+      },
+      "0xfb12a483698e77fab7cf981cf8e1a92975df0e7bc73818d742ce872b62d0b0a5": {
+        "name": "Crowdsale",
+        "address": "0x9B5dE01e82924249Db764551bC080C7294979dCf"
+      },
+      "0xb540a82cc3161029a9dabe7cb84977933422e5e37db0c0f0b139afd441eb340e": {
+        "name": "XSSToken",
+        "address": "0x8a43391788615FfD81f6597310B034c64ba48504"
+      }
+    }
+  },
+  "0x067d44a8236d6ee63cbbe4cae5ca6868aaf00cf18cf422d62f38e649d1ebd6ab": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0xB51D4241E33B24376e7Ae6352D1e2503475700D5"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x0C44D853B174EB66bD9cEbf362c572e873338CBa"
+      },
+      "0xe9dab73806f8759ce386a2ceffadbc851c1e009f9021dca7a3314a114cba1e3c": {
+        "name": "RefundEscrow",
+        "address": "0x2b63F4dF855E9098f9eC8Ce3448D8789f7deBa90"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x81B33f6EfaE1074D69E10deE65b42284b9d2F65B"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0x8219f2BcaA0C62528f61db65BE3D71e8A5Fe8f92"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0xc02974ccCDD0a494eB640f030c54235deB63d9fe"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x91fa9540B2342F6A638d4b1Ca776b09dC2bB5d5a"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0xE506F87B2AE123084Fe0EC4E4222129dc54Fa25d"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xFD78d1ab7eB6a1Dd295bC36B6b3DF9c32dEC5e82"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0x481acB63ed57C41Ad2a1431D3B7ceA0AF93BC8Ad"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0xC10E9fC99cD6C007787be62D8A296eBAC61f5558"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x92782332284b3FD0A99673fd00690FF4f296499b"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x96A5Ab9be5E5cAAE94cFC29E2f4af39d0BEb0EC8"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0xff960999380351d155ef21fEB11F875352028ab0"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x43235B8C8569c7E47114ead29Fc5bf483b85A5E8"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x2e24f7E520D80b94E0071586F77404fa6CD61D59"
+      },
+      "0xb540a82cc3161029a9dabe7cb84977933422e5e37db0c0f0b139afd441eb340e": {
+        "name": "XSSToken",
+        "address": "0xF30543993aFF5f7732a0b4fE4E10C984dA8E3ECa"
+      },
+      "0x37ff03c74baafb6b04f7a7d624b98381233714b7f1d803bca5d62818b946c94e": {
+        "name": "Crowdsale",
+        "address": "0xD1205F2eD4dB72D6B6E0048F99533dCE076328e9"
+      }
+    }
+  },
+  "0xc65c3d7b5f17c657b29eaa376676035107acebf5e90fb4233500bb770dc3a911": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0xB51D4241E33B24376e7Ae6352D1e2503475700D5"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0xB51D4241E33B24376e7Ae6352D1e2503475700D5"
+      },
+      "0xe9dab73806f8759ce386a2ceffadbc851c1e009f9021dca7a3314a114cba1e3c": {
+        "name": "RefundEscrow",
+        "address": "0x0C44D853B174EB66bD9cEbf362c572e873338CBa"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x2b63F4dF855E9098f9eC8Ce3448D8789f7deBa90"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0x81B33f6EfaE1074D69E10deE65b42284b9d2F65B"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0x8219f2BcaA0C62528f61db65BE3D71e8A5Fe8f92"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0xc02974ccCDD0a494eB640f030c54235deB63d9fe"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0x91fa9540B2342F6A638d4b1Ca776b09dC2bB5d5a"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xE506F87B2AE123084Fe0EC4E4222129dc54Fa25d"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0xFD78d1ab7eB6a1Dd295bC36B6b3DF9c32dEC5e82"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x481acB63ed57C41Ad2a1431D3B7ceA0AF93BC8Ad"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0xC10E9fC99cD6C007787be62D8A296eBAC61f5558"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x92782332284b3FD0A99673fd00690FF4f296499b"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x96A5Ab9be5E5cAAE94cFC29E2f4af39d0BEb0EC8"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0xff960999380351d155ef21fEB11F875352028ab0"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x43235B8C8569c7E47114ead29Fc5bf483b85A5E8"
+      },
+      "0xb540a82cc3161029a9dabe7cb84977933422e5e37db0c0f0b139afd441eb340e": {
+        "name": "XSSToken",
+        "address": "0x2e24f7E520D80b94E0071586F77404fa6CD61D59"
+      },
+      "0xfb12a483698e77fab7cf981cf8e1a92975df0e7bc73818d742ce872b62d0b0a5": {
+        "name": "Crowdsale",
+        "address": "0xF30543993aFF5f7732a0b4fE4E10C984dA8E3ECa"
+      }
+    }
+  },
+  "0xc6871f156927a9c535ca0aaeb4a2b77e124e3e69f6b8dfad446a4d778bb5c25c": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0xB51D4241E33B24376e7Ae6352D1e2503475700D5"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0xe9dab73806f8759ce386a2ceffadbc851c1e009f9021dca7a3314a114cba1e3c": {
+        "name": "RefundEscrow",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0xe5731c3df7a510fba6c5b2766251ce631C6B1d78"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x6427A6200Bed37FC1e512BdeA49D25Aa9089CF47"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0xfD31b5cE21e86b2B0275d87c1Bae5E43607Fc5Fe"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x5Baf4D88bC454537C51CEC7568a1E23400483abc"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x2e465c6170720cE7AF68Cfc0bDB4208fc28833D8"
+      }
+    }
+  },
+  "0x4c5c69067f461e750ff4c3787da01870d57e9fc7820e4356b7f5808fcf4c8113": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0xe9dab73806f8759ce386a2ceffadbc851c1e009f9021dca7a3314a114cba1e3c": {
+        "name": "RefundEscrow",
+        "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0xe5731c3df7a510fba6c5b2766251ce631C6B1d78"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0x6427A6200Bed37FC1e512BdeA49D25Aa9089CF47"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xfD31b5cE21e86b2B0275d87c1Bae5E43607Fc5Fe"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x5Baf4D88bC454537C51CEC7568a1E23400483abc"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x2e465c6170720cE7AF68Cfc0bDB4208fc28833D8"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x2051D39a6220F6126c33DcfaCc72465b6b57cB5d"
+      }
+    }
+  },
+  "0xa2682af1e4910dd22fe7392a4fb6dc97865d592d6d27fed6139f710aab7c27b4": {
+    "contracts": {
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0x1f5a276723a7bddb4d893ce2a1e85ab463bed699c660f69b213d0e1ffad45ad7": {
+        "name": "ERC20Capped",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0x43ab3c171e7c762ef644a40730aba45dd54efefba7640c6be9dd04d903831362": {
+        "name": "RefundEscrow",
+        "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      },
+      "0xefbe3a82f9d9b57b3ab4dc8a760d7bc192bfe71b8be03af450c489b884710565": {
+        "name": "Secondary",
+        "address": "0x494748735312D87C54Ff36E9dc71f90fb800D7Df"
+      },
+      "0xe955060e1bbec00066a8b8e90367d2ccf1914017caec7fbd40a8d57def839f0c": {
+        "name": "ERC20",
+        "address": "0xe5731c3df7a510fba6c5b2766251ce631C6B1d78"
+      },
+      "0x9aebb426bb11cc5fcd2dcb273dbb4a53b9e3893c55afcf79d7b626597dee097d": {
+        "name": "ERC20Burnable",
+        "address": "0x6427A6200Bed37FC1e512BdeA49D25Aa9089CF47"
+      },
+      "0x80415f7d8cda58167e27934c6cbf9fd4179eb9e802f9b157786207f4bbb5349a": {
+        "name": "ERC20Mintable",
+        "address": "0x8C74e6cCd38c8B61B874B0514577206a0b8Dab98"
+      },
+      "0x9a58299a0d3df3e7ab1e7be64fe8686d047b8ea8556916b170f8c32bd164d36c": {
+        "name": "ERC20Pausable",
+        "address": "0xAACD4A4624632CbA84adCEda845dE2c1c265f832"
+      },
+      "0x226b618f0869db0a4067a93ef035d73353b9719d149a4c5c8ab9cd2a1d8f7177": {
+        "name": "HelperFunctions",
+        "address": "0xfD31b5cE21e86b2B0275d87c1Bae5E43607Fc5Fe"
+      },
+      "0x0745bc6fc19a20ac486ce93ddf7b9d0fc956bca242899766bb911596a20d12d3": {
+        "name": "SafeERC20",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x5Baf4D88bC454537C51CEC7568a1E23400483abc"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x321eF1b12d422F6526b9F4D0B11c27be53c80Ee8"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x2e465c6170720cE7AF68Cfc0bDB4208fc28833D8"
+      },
+      "0x0adc5b2c99278447c5e29db02d56416aafeb433cbdda5627248d6ee56976acd0": {
+        "name": "Escrow",
+        "address": "0x2051D39a6220F6126c33DcfaCc72465b6b57cB5d"
+      },
+      "0x68c66bc57b8de4b72ce50844ce1e5c1656fc7a6e8581dbd944212630f9375fce": {
+        "name": "XSSToken",
+        "address": "0x92FD271DB21c6Fb633EC540E440fe3DcB3E60779"
+      },
+      "0xffc1331d69cfd9a39c8cdcb39d649f5f8e545c11d1340c976312020c044c21bb": {
+        "name": "Crowdsale",
+        "address": "0xE79D974F3Ca6A47430af521D0440d79405f3CaC4"
+      },
+      "0x38e8750d139d9192a1d1aaf4645714d3ab7aec580eb9bdc1a5868d91ef2a7f34": {
+        "name": "XSSToken",
+        "address": "0x2e6242a07Ea1C4E79ecC5c69a2dccaE19878a280"
+      },
+      "0xfc094be1e00fcdade306f7fca104a25cef30a6cc3a5d0fa8ef3f2dc92eed9f96": {
+        "name": "Crowdsale",
+        "address": "0xF7f3C7510F1E072d7D21D43D7580952Db3230286"
+      },
+      "0x8194b0252fe30aa52cbaee93d6dcf982e512b89889a2f0a54b0f3fd6787418ee": {
+        "name": "ERC20Capped",
+        "address": "0x931CA074De8B69B71315C8d4E8EFa3B92cA464bc"
+      },
+      "0x0b0de1420a373ba18bdeae4ca48ff08e7116feb14af17abf1e33c0fabb464b9c": {
+        "name": "ERC20",
+        "address": "0xFf22741dea1254c802120D48E295a0f5AdDf05e9"
+      },
+      "0xdd353e2bcd0d80e38729e7ffa8206eb8b2827150d03fa3e7c5f623f4b22a1fb9": {
+        "name": "ERC20Burnable",
+        "address": "0x1FE36f7FB2FB6Ba092b5A8E41dd8a133F62ab3f8"
+      },
+      "0x8e0bfd9253ee3145c865782d2249f51e912876ae0fa21f08e8c0f12b8ee2587e": {
+        "name": "ERC20Mintable",
+        "address": "0xf7dEF30e46B2A1cd8BC36Ce46957591E88D5863e"
+      },
+      "0xfe1c52806c789e0529fa786d82a3d72b46d415b071a899f33404f300c53b2bca": {
+        "name": "ERC20Pausable",
+        "address": "0x35d40Dfb8A44130D60410eCD8dD3BBa6b0AE77ff"
+      },
+      "0x8ba10dc6211db14652e674c370235a06349773696f866b4d2a2406db1350aaea": {
+        "name": "SafeERC20",
+        "address": "0xFBA961F78348c56dFA9cDd057214C661e42Fa289"
+      },
+      "0xe957c6c3d04a7d3108ba10d358f1a524d45cfc0e49e8d8afc5d382b10bfc36a3": {
+        "name": "XSSToken",
+        "address": "0x7fDB210C63e85Dc58532ebbd79f306957b3DDCF3"
+      },
+      "0xaf211c6c024ced42c70bb1b42e36ea4ec19fa32f895b29cc54544d524fe89d3d": {
+        "name": "Crowdsale",
+        "address": "0xB0F073213D541263dE27FA56978c3f16818eAdAb"
+      },
+      "0xa691c1114e4fb831e0af4196ca0330d8006b942dc07b466a2c95e872398d0a4e": {
+        "name": "ERC20Capped",
+        "address": "0xd1036C95f7c006b04A71a89a90f80Bb3a07De9B6"
+      },
+      "0x0a9277bbf7450d200b9d0dabf6b9ec4f450aa05724756d29308523e63629a0d7": {
+        "name": "ERC20",
+        "address": "0x34F198D04bBF9042D25a8554384f79134d84b05b"
+      },
+      "0x57788f4f103688fe42a61392d157fcff487e03a4290f7d3cdf7c4ae953170ec0": {
+        "name": "ERC20Burnable",
+        "address": "0x7f847A6DB3D81862c69E0ff7875903f3E51E2413"
+      },
+      "0x366e43678a55b334582968faaeed7068386ad005925590b4e536873b11747526": {
+        "name": "ERC20Mintable",
+        "address": "0x542c69AdC89eC10fAf57Ad0FDbdbe21bb86E2b9b"
+      },
+      "0xaccf9650b714e2b8ee1d97b1e84f0239fed8232393ba43a23b8766ac2cbc5ec3": {
+        "name": "ERC20Pausable",
+        "address": "0xf1a7a38fa141a82F8262FE19e2B1057355e3b645"
+      },
+      "0x5278f84791b28f72cedf5cc34b32952b0bf491c153f123c13cbf78931c45f215": {
+        "name": "SafeERC20",
+        "address": "0x6E26edBDCC073fCDB00B42eE697ae7864df0c1da"
+      },
+      "0x62d3c52073196539619fd37a48fe184e90d0e3da58e117edbbacc7072b61a87c": {
+        "name": "XSSToken",
+        "address": "0x602D6A24D1CDd6BEa2aB956e75FDf75AD86816B9"
+      },
+      "0x8c952119311d618aa0551d6e0cde7e5ea00fd133907c30073c3441f0b733428b": {
+        "name": "Crowdsale",
+        "address": "0x6Da0B2D119929C9DE701437A1Dc42DC0435b12E2"
+      }
+    }
+  },
+  "0x24f4079d5902872504c907b787b69684115f971fd0c79fbf66c81844e09151db": {
+    "contracts": {
+      "0x645d806fe15e6495b9555318a68d28974702f76d0e5ead4a1cadc0b3ca55baf1": {
+        "name": "HelperFunctions",
+        "address": "0xa140c60517Fa52aF64074EcAedeF9E505310E376"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x195fcB5B1D04E58C90813a5d67a5Ab84Bc4D85e5"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x9c888ff4D7d4F512C79073ad5016116327fD8315"
+      },
+      "0x04555371cf48b31db05dbaf355a07c4fff65d04d3d74456a3a73bb26512fff2e": {
+        "name": "BokkyPooBahsDateTimeLibrary",
+        "address": "0x11e931c27575aE84670FE1047BC52421456080a9"
+      },
+      "0x082a6145f864e06fe10b5ef29a80954b2828b7088aacbc052876b9accc16b242": {
+        "name": "DateTime",
+        "address": "0x54834672a6e04f02A5b8ed8699623bEfEA557B12"
+      },
+      "0x58099995f5547ba63dd00891878a760ca7ff5389bce96fba2d56eb5145377b98": {
+        "name": "ERC20",
+        "address": "0x8d4db14657933e4d16462D1e38885FC9B79D4b78"
+      },
+      "0x864cdb29e2c3442128abf04271d626b2fc51c5960105bf71e92d5aa6237f19a9": {
+        "name": "ERC20Burnable",
+        "address": "0x1486D35E247480B2A8A453D3Fa888aDF7809EdBF"
+      },
+      "0xb7bd6eb12f308ef0bef7f0d3e3efd5b1d7e6c7d4dd5dc0501b8c5ea46d3ffe5d": {
+        "name": "ERC20Mintable",
+        "address": "0x9D5A3E7C29DC832075cADF21397e5BB8c6154ae7"
+      },
+      "0x3cbf017e69493135dc462d82e809f6d056b6a3c44be27de5e678430c5a717847": {
+        "name": "ERC20Pausable",
+        "address": "0x524Adb4B1977e654bF6FaeEef10c918b73f22527"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x1d10d07C684D19A842FD9b6aF4A86a174Fd37C9f"
+      },
+      "0x68cc22434b5fe302bf8760c16ca92f606650b915a19e7cdb9f02625feccea9bb": {
+        "name": "SafeERC20",
+        "address": "0xC34184787c78F32207de431016c4d2b4ffb925c5"
+      },
+      "0x4b78646571d79693aa694529e754b69107fe2485eb9a5462d9d672f28ba04943": {
+        "name": "TestDateTime",
+        "address": "0x9d9BCEdBeA705F73515027106324684B0e688631"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x17f27bA75dA3bEb416d69Bfd8B63CBE1Ff2716d8"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x0648E159e0E99AD8480508DbDf4b52355E698C4c"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0xA4377994f1870143e03962F7Aaba8cA2e5c68184"
+      },
+      "0x9b209ee9436ace4880b0c14cb165b9e0b845de3ba475369569c8749311afa7a9": {
+        "name": "XEUASToken",
+        "address": "0xdf851E5A1382eE77b039c2de732B406327f544E7"
+      }
+    }
+  },
+  "0x1b6231eb665af55b62cfd30c541117c296310f27a8b28ff91bf6d49bf2fcd5ab": {
+    "contracts": {
+      "0x645d806fe15e6495b9555318a68d28974702f76d0e5ead4a1cadc0b3ca55baf1": {
+        "name": "HelperFunctions",
+        "address": "0x96A8b7bbdED5b89a7da6EB3091a57A882010Be94"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x195fcB5B1D04E58C90813a5d67a5Ab84Bc4D85e5"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x9c888ff4D7d4F512C79073ad5016116327fD8315"
+      },
+      "0x04555371cf48b31db05dbaf355a07c4fff65d04d3d74456a3a73bb26512fff2e": {
+        "name": "BokkyPooBahsDateTimeLibrary",
+        "address": "0x11e931c27575aE84670FE1047BC52421456080a9"
+      },
+      "0x082a6145f864e06fe10b5ef29a80954b2828b7088aacbc052876b9accc16b242": {
+        "name": "DateTime",
+        "address": "0x54834672a6e04f02A5b8ed8699623bEfEA557B12"
+      },
+      "0x58099995f5547ba63dd00891878a760ca7ff5389bce96fba2d56eb5145377b98": {
+        "name": "ERC20",
+        "address": "0x8d4db14657933e4d16462D1e38885FC9B79D4b78"
+      },
+      "0x864cdb29e2c3442128abf04271d626b2fc51c5960105bf71e92d5aa6237f19a9": {
+        "name": "ERC20Burnable",
+        "address": "0x1486D35E247480B2A8A453D3Fa888aDF7809EdBF"
+      },
+      "0xb7bd6eb12f308ef0bef7f0d3e3efd5b1d7e6c7d4dd5dc0501b8c5ea46d3ffe5d": {
+        "name": "ERC20Mintable",
+        "address": "0xCb68d55dF6Bd4A9a221C54848Cf5DE603A86bF55"
+      },
+      "0x3cbf017e69493135dc462d82e809f6d056b6a3c44be27de5e678430c5a717847": {
+        "name": "ERC20Pausable",
+        "address": "0x9D5A3E7C29DC832075cADF21397e5BB8c6154ae7"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x524Adb4B1977e654bF6FaeEef10c918b73f22527"
+      },
+      "0x68cc22434b5fe302bf8760c16ca92f606650b915a19e7cdb9f02625feccea9bb": {
+        "name": "SafeERC20",
+        "address": "0x1d10d07C684D19A842FD9b6aF4A86a174Fd37C9f"
+      },
+      "0x4b78646571d79693aa694529e754b69107fe2485eb9a5462d9d672f28ba04943": {
+        "name": "TestDateTime",
+        "address": "0xC34184787c78F32207de431016c4d2b4ffb925c5"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x9d9BCEdBeA705F73515027106324684B0e688631"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x17f27bA75dA3bEb416d69Bfd8B63CBE1Ff2716d8"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x0648E159e0E99AD8480508DbDf4b52355E698C4c"
+      },
+      "0x9b209ee9436ace4880b0c14cb165b9e0b845de3ba475369569c8749311afa7a9": {
+        "name": "XEUASToken",
+        "address": "0xA4377994f1870143e03962F7Aaba8cA2e5c68184"
+      },
+      "0xf54e9f42b8e78dacea652c1df7b2467a76f91929d94c597c333c71aa25b575fb": {
+        "name": "XSSToken",
+        "address": "0x0C44D853B174EB66bD9cEbf362c572e873338CBa"
+      },
+      "0x489219c0a90ee3dc6643747fa7c7018a6398781d17ce7b88054589d87204018d": {
+        "name": "SolarSwop",
+        "address": "0xdf851E5A1382eE77b039c2de732B406327f544E7"
+      }
+    }
+  },
+  "0xa33e5ba0f768f4900fdedfe15b9c14bd4abd6d73a5fc7d3fb3ca9cd499fc5502": {
+    "contracts": {
+      "0x645d806fe15e6495b9555318a68d28974702f76d0e5ead4a1cadc0b3ca55baf1": {
+        "name": "HelperFunctions",
+        "address": "0x2AF4A2E6b8DC88A6060Db796cf6a293146332660"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x19B76a53DdF9f4158Ae731435eB910b57730dF6F"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0x591B6Db315b6Cb4de25AB17f65Ebf25524C84Ac8"
+      },
+      "0x04555371cf48b31db05dbaf355a07c4fff65d04d3d74456a3a73bb26512fff2e": {
+        "name": "BokkyPooBahsDateTimeLibrary",
+        "address": "0xD68EAD1Caaf804005985f36D452e4e864773D441"
+      },
+      "0x082a6145f864e06fe10b5ef29a80954b2828b7088aacbc052876b9accc16b242": {
+        "name": "DateTime",
+        "address": "0x1492cD30156eF9bbE9f3f8ab36cCf1f0A540EA82"
+      },
+      "0x58099995f5547ba63dd00891878a760ca7ff5389bce96fba2d56eb5145377b98": {
+        "name": "ERC20",
+        "address": "0x6875625E34eFD9b1ca2720C7CAF0f2F0a946BD44"
+      },
+      "0x864cdb29e2c3442128abf04271d626b2fc51c5960105bf71e92d5aa6237f19a9": {
+        "name": "ERC20Burnable",
+        "address": "0x49fB696F19335f76a7966F026968C9F32a1d9361"
+      },
+      "0xb7bd6eb12f308ef0bef7f0d3e3efd5b1d7e6c7d4dd5dc0501b8c5ea46d3ffe5d": {
+        "name": "ERC20Mintable",
+        "address": "0x2CCD43c685AF74a95C007912a28143C6c66C5D37"
+      },
+      "0x3cbf017e69493135dc462d82e809f6d056b6a3c44be27de5e678430c5a717847": {
+        "name": "ERC20Pausable",
+        "address": "0xA5231aBEC6CE9086c1e87C9f5E11AB5E53714fC6"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x2aB41c38D066523E13112130AE655f73cC37Ae78"
+      },
+      "0x68cc22434b5fe302bf8760c16ca92f606650b915a19e7cdb9f02625feccea9bb": {
+        "name": "SafeERC20",
+        "address": "0x212c77720F1Ba76179c0beb29b5CFA81a6c4d6A5"
+      },
+      "0x4b78646571d79693aa694529e754b69107fe2485eb9a5462d9d672f28ba04943": {
+        "name": "TestDateTime",
+        "address": "0x3Dec0035D6F0aA2353753AF9cbd4d40c3feba742"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x34D30cdc6EDd97803984B469F808030b62456F71"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x26f55f550FC921DCA2A38b7da50Ba1e3c63B1Eba"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0x6BA3Ea2456c223c437bD4Fc1a303C14f9e47B12C"
+      },
+      "0x9b209ee9436ace4880b0c14cb165b9e0b845de3ba475369569c8749311afa7a9": {
+        "name": "XEUASToken",
+        "address": "0xA4377994f1870143e03962F7Aaba8cA2e5c68184"
+      },
+      "0xf54e9f42b8e78dacea652c1df7b2467a76f91929d94c597c333c71aa25b575fb": {
+        "name": "XSSToken",
+        "address": "0x96A8b7bbdED5b89a7da6EB3091a57A882010Be94"
+      },
+      "0x6548c1ff2459df0fee22d623d9c6e82c962daf31b2cc43b6ac48e37616baf485": {
+        "name": "SolarSwop",
+        "address": "0xa140c60517Fa52aF64074EcAedeF9E505310E376"
+      },
+      "0x31de65b7da91f6840d91d03f7fc08df1953d3ae1c40b9aad21c7f3ff63e2e8c9": {
+        "name": "SolarSwop",
+        "address": "0x7562B86BF44D00fbb5219A4C043ba29662289b31"
+      },
+      "0x35d18a99a928e50c2f6445201f543698bb16ebbb5592d0ed607e6bc369db4f04": {
+        "name": "SolarSwop",
+        "address": "0x12fc2b43C37711D8A12706b155D38DE08E93E6d3"
+      },
+      "0xcda01ec1b8c2c9089a986b393e90bbf347bc53802c2d851f35bcee6e74746cc6": {
+        "name": "SolarSwop",
+        "address": "0xb929ce676975a78E9C9CE38A365Cc2723265890b"
+      },
+      "0x79d7484d4ab4469b5cd0421457f06f43fd6498a1bc3a1b62f9e34ae56b852d92": {
+        "name": "SolarSwop",
+        "address": "0x6d307597945093857d88516FF239B15B85cf7B19"
+      },
+      "0xba236e6ccc746290c1bb91f31879239255a4e86c86c92ec3475674a0b0a585a1": {
+        "name": "SolarSwop",
+        "address": "0x847Ecf2B5792c853b5C8A349350E485392d2e3E0"
+      },
+      "0xdc4427c091e50781926879dbe331c7b2eafcffb14c9b1d9d90fc71c3225a7daa": {
+        "name": "SolarSwop",
+        "address": "0x21bfc9BFD7e7fC4907897434117954d4E37Bd5fe"
+      },
+      "0xc2521b6093efd5fca98ad02fe6d13e3d49112a39c194081468015f3df415050d": {
+        "name": "SolarSwop",
+        "address": "0x63005DfAF31aaA531390C9Cc44980d92fd8633a2"
+      },
+      "0xad4746b597ccf47f1f515856dbb8a138d050a800106f2fe744522160d03c91d4": {
+        "name": "XEUASToken",
+        "address": "0x556fd6deA9a7A8C83c182f0B9090650caeaa9bB0"
+      },
+      "0xe7081103ce28665495baeb736f32134970068ad2c30a16502ea1246da9f49f20": {
+        "name": "XSSToken",
+        "address": "0x4ff5530324D0F37aAc04B252d6551D2aaC3c0a76"
+      },
+      "0x39aa87e69fd59c44c66f30c961f78a776a93a867fdb9aa800aa57ec836f315d6": {
+        "name": "SolarSwop",
+        "address": "0x5380CF424b050802b370296FAD947c1b6144e687"
+      },
+      "0x07108c0bfa0328c18370d5ceca241f70ed37e3bfd395d6e3d3e98e7970087111": {
+        "name": "XSSToken",
+        "address": "0xDf53025A93e570d905ed64D6Ee011dfA400451BF"
+      },
+      "0x6334c51d2787b6d7215bfc5611cb25cbbe0caab9d55d48b9bbb4e1d7e2726145": {
+        "name": "SolarSwop",
+        "address": "0xb4cC917AbD80D8a94d45c0843924501BA0431BF5"
+      },
+      "0x9f45f8d6ad3e3d8d9a5a510601b00e336b8ee82a8fd4a4ae92bfd48b6a0b652d": {
+        "name": "SolarSwop",
+        "address": "0x7B828c672a29De28661E370131c16B63365040b6"
+      },
+      "0x310c5496a8e1419f56cdb19fa29f68454d6978b58de393d0e9f8eda6067c5a3a": {
+        "name": "SolarSwop",
+        "address": "0x6bFf3e0429b5FbeD625E4140ce148db9F21275d7"
+      },
+      "0xc1b23ef88b99456f61944092491415ca9fd84d6c1766a9849381b288cad5a513": {
+        "name": "SolarSwop",
+        "address": "0x102A3b0C702EC090659E116a98399e6223373a4d"
+      },
+      "0x397196df9d729b7f6833e171277a24e27a98e5ab20e83992d27a46256b4bfa95": {
+        "name": "SolarSwop",
+        "address": "0x778f3bDbD2368D52D61F94e891B5193BA1256AF3"
+      },
+      "0xb6442659593f14d7fcb40fc2d11d8d8d81ea0f3157055efdd735a9dbc1258f46": {
+        "name": "SolarSwop",
+        "address": "0x05f41452f85bf4f2F844090Ef7dAeACBbC55F7c7"
+      },
+      "0x8698a4367f469081787a14af7c1b4cf475151a5674949c4da7c50324b070ad79": {
+        "name": "SolarSwop",
+        "address": "0xE53b491f7a9417861E39553E0AD0A07022dA719b"
+      },
+      "0x5645236f7616ef84c59661bcb34cda3b70140ca6ed07d1b5f66e8d1cb20d6f80": {
+        "name": "SolarSwop",
+        "address": "0x935607e00A68884A4b8bF7A16E47c7602269ae47"
+      },
+      "0x29585bc160400cd81dde0466affea9a1250419038dd869e46363aed7abc8eb55": {
+        "name": "SolarSwop",
+        "address": "0x78Eb2B0728C88AFc09Cb95829D735b0F6CAE31df"
+      },
+      "0x702f4ada273af63b8ae993f5c0ec47ff5b3deae4921451a4835ac8958088d723": {
+        "name": "SolarSwop",
+        "address": "0x444A5155C4055808E7110317071b4C11dDA205D0"
+      },
+      "0x931c4682e0e902634ba32e7240f02d2ef70b669a20a3e1908d3b821c7ca8d771": {
+        "name": "SolarSwop",
+        "address": "0x39be4807710C540ef03E48d7C5CD46fcd6fda6f7"
+      },
+      "0xd9b6586f41aa91efad38fe27222f3758fe9f55384f81a04112b9a87f6d7c6b73": {
+        "name": "SolarSwop",
+        "address": "0x0EfdA3cf48A9f310825Ae466E1ad4EA0Fadb44A2"
+      },
+      "0xd783b8ccac671171bfeb217a26b5c267e54ccc6f5e6fc8d8c5a2518e5f9c11bb": {
+        "name": "SolarSwop",
+        "address": "0x5E147CCD354042eEc4C3Ef7d8f621Be1cD7d1FE9"
+      },
+      "0x4b6d72888c0e9e071e0aac01f8d51c38f5162816d70e97115c0a2025c5736dba": {
+        "name": "SolarSwop",
+        "address": "0x634a9e08FE0002CDbDf68249a7D6B93700442853"
+      },
+      "0x1ebdee4142e93b34438dc2044429a31b504f84f6bfd5540fe3736191a5ec1b4b": {
+        "name": "SolarSwop",
+        "address": "0x697652C8D884b7a43c947cCD52a0ADA6dd2176b8"
+      },
+      "0x35931076c5cac4ace61136bc239f2367974b00daab202ecf6c6bc9d40b6652ff": {
+        "name": "SolarSwop",
+        "address": "0x364b896D6D5E094f9aD7C60677C37008e3384e51"
+      },
+      "0x393d5f98a068803c1f2b04fc34ccd0b553e29b3493586c3000b13a57d6db1e45": {
+        "name": "XSSToken",
+        "address": "0xAe0eF238C693876763C4BFEd8Bb804CA635175bB"
+      },
+      "0x5e4369555f09f1e88cb9697a951e80eb89d31d402b95b2e23babf1c606efdf28": {
+        "name": "XEUASToken",
+        "address": "0x7f7588Cb521d902367f253689767A5d07aC99F76"
+      },
+      "0x915f0db34f217c2445f40863f5fb4d44c0e4c071e9a76fcdfae11c3d1288c04c": {
+        "name": "XSSToken",
+        "address": "0x8747d29FAEF0698a60696a47FfE38d6792612B91"
+      },
+      "0x3277114e2f8bdd703b51177558d68e0e3bd537a0eb07a91ce876f6f457bbb3c5": {
+        "name": "PlatformToken",
+        "address": "0xE80fA173243c2F8FaC7A5Ff988d364b49237f56F"
+      },
+      "0x3e6fad8fa6b23e9b5ae0fe0882c12f460004e79aee69b00615169f47542dd05a": {
+        "name": "SolarSwop",
+        "address": "0xcf947e9754e1082A04a99aDAC25bb142dBCd4b57"
       }
     }
   }

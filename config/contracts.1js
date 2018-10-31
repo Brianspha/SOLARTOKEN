@@ -1,0 +1,83 @@
+module.exports = {
+  // default applies to all environments
+  default: {
+    // Blockchain node to deploy the contracts
+    deployment: {
+      host: "localhost", // Host of the blockchain node
+      port: 8545, // Port of the blockchain node
+      type: "rpc" // Type of connection (ws or rpc),
+      // Accounts to use instead of the default account to populate your wallet
+      ,accounts: [
+        {
+          privateKey: "random",
+          balance: "115 ether"  // You can set the balance of the account in the dev environment
+                              // Balances are in Wei, but you can specify the unit with its name
+        },
+        {
+          privateKey: "0xf09324e7a1e2821c2f7a4a47675f9cf0b1a5eb7f",
+          balance: "115 ether"  // You can set the balance of the account in the dev environment
+                              // Balances are in Wei, but you can specify the unit with its name
+        },
+        
+        {
+          privateKeyFile: "./config/testnet/key" // You can put more than one key, separated by , or ;
+        },
+        {
+          mnemonic: "12 word mnemonic",
+          addressIndex: "0", // Optionnal. The index to start getting the address
+          numAddresses: "10", // Optionnal. The number of addresses to get
+          hdpath: "m/44'/60'/0'/0/" // Optionnal. HD derivation path
+        }
+      ]
+    },
+    // order of connections the dapp should connect to
+    dappConnection: [
+      "$WEB3", // uses pre existing web3 object if available (e.g in Mist)
+      "ws://localhost:8546",
+      "http://localhost:8545"
+    ],
+    gas: "auto",
+    contracts: {
+      // example:
+      ERC20Capped: {
+        args: [
+          1000000000
+        ]
+      },
+      XSSToken: {
+        from: '0xb8d851486d1c953e31a44374aca11151d49b8bb3',
+        args: [
+          "0xf6d5c6d500cac10ee7e6efb5c1b479cfb789950a",
+          "0xf09324e7a1e2821c2f7a4a47675f9cf0b1a5eb7f",
+          "0xfbaf82a227dcebd2f9334496658801f63299ba24",
+          "0x774b5341944deac70199a4750556223cb008949b"
+        ]
+      },
+      Crowdsale: {
+        from: '0xb8d851486d1c953e31a44374aca11151d49b8bb3',
+        args: [
+          1,
+          "0xb8d851486d1c953e31a44374aca11151d49b8bb3",
+          "$XSSToken"
+        ]
+      },
+      RefundEscrow: {
+        args: [
+          "0xb8d851486d1c953e31a44374aca11151d49b8bb3"
+        ]
+      },
+      SolarSwop: {
+        args: [
+          1540651500,
+          1540944000,
+          10,
+          "0xb8d851486d1c953e31a44374aca11151d49b8bb3",
+          5000,
+          "$XSSToken",
+          500
+        ],
+        deploy:false
+      }
+    }
+  }
+};

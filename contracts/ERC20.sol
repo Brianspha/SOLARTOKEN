@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^ 0.4 .24;
 
 import "./IERC20.sol";
 import "../math/SafeMath.sol";
@@ -11,27 +11,28 @@ import "../math/SafeMath.sol";
  * Originally based on code by FirstBlood: https://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol
  */
 contract ERC20 is IERC20 {
-  using SafeMath for uint256;
+  using SafeMath
+  for uint256;
 
-  mapping (address => uint256) private _balances;
+  mapping(address => uint256) private _balances;
 
-  mapping (address => mapping (address => uint256)) private _allowed;
+  mapping(address => mapping(address => uint256)) private _allowed;
 
   uint256 private _totalSupply;
 
   /**
-  * @dev Total number of tokens in existence
-  */
-  function totalSupply() public view returns (uint256) {
+   * @dev Total number of tokens in existence
+   */
+  function totalSupply() public view returns(uint256) {
     return _totalSupply;
   }
 
   /**
-  * @dev Gets the balance of the specified address.
-  * @param owner The address to query the balance of.
-  * @return An uint256 representing the amount owned by the passed address.
-  */
-  function balanceOf(address owner) public view returns (uint256) {
+   * @dev Gets the balance of the specified address.
+   * @param owner The address to query the balance of.
+   * @return An uint256 representing the amount owned by the passed address.
+   */
+  function balanceOf(address owner) public view returns(uint256) {
     return _balances[owner];
   }
 
@@ -44,20 +45,19 @@ contract ERC20 is IERC20 {
   function allowance(
     address owner,
     address spender
-   )
-    public
-    view
-    returns (uint256)
-  {
+  )
+  public
+  view
+  returns(uint256) {
     return _allowed[owner][spender];
   }
 
   /**
-  * @dev Transfer token for a specified address
-  * @param to The address to transfer to.
-  * @param value The amount to be transferred.
-  */
-  function transfer(address to, uint256 value) public returns (bool) {
+   * @dev Transfer token for a specified address
+   * @param to The address to transfer to.
+   * @param value The amount to be transferred.
+   */
+  function transfer(address to, uint256 value) public returns(bool) {
     _transfer(msg.sender, to, value);
     return true;
   }
@@ -71,7 +71,7 @@ contract ERC20 is IERC20 {
    * @param spender The address which will spend the funds.
    * @param value The amount of tokens to be spent.
    */
-  function approve(address spender, uint256 value) public returns (bool) {
+  function approve(address spender, uint256 value) public returns(bool) {
     require(spender != address(0));
 
     _allowed[msg.sender][spender] = value;
@@ -90,9 +90,8 @@ contract ERC20 is IERC20 {
     address to,
     uint256 value
   )
-    public
-    returns (bool)
-  {
+  public
+  returns(bool) {
     require(value <= _allowed[from][msg.sender]);
 
     _allowed[from][msg.sender] = _allowed[from][msg.sender].sub(value);
@@ -113,9 +112,8 @@ contract ERC20 is IERC20 {
     address spender,
     uint256 addedValue
   )
-    public
-    returns (bool)
-  {
+  public
+  returns(bool) {
     require(spender != address(0));
 
     _allowed[msg.sender][spender] = (
@@ -137,9 +135,8 @@ contract ERC20 is IERC20 {
     address spender,
     uint256 subtractedValue
   )
-    public
-    returns (bool)
-  {
+  public
+  returns(bool) {
     require(spender != address(0));
 
     _allowed[msg.sender][spender] = (
@@ -149,11 +146,11 @@ contract ERC20 is IERC20 {
   }
 
   /**
-  * @dev Transfer token for a specified addresses
-  * @param from The address to transfer from.
-  * @param to The address to transfer to.
-  * @param value The amount to be transferred.
-  */
+   * @dev Transfer token for a specified addresses
+   * @param from The address to transfer from.
+   * @param to The address to transfer to.
+   * @param value The amount to be transferred.
+   */
   function _transfer(address from, address to, uint256 value) internal {
     require(value <= _balances[from]);
     require(to != address(0));

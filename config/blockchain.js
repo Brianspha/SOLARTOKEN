@@ -8,7 +8,7 @@ module.exports = {
     datadir: ".embark/development/datadir", // Data directory for the databases and keystore
     mineWhenNeeded: true, // Uses our custom script (if isDev is false) to mine only when needed
     nodiscover: true, // Disables the peer discovery mechanism (manual peer addition)
-    maxpeers: 0, // Maximum number of network peers (network disabled if set to 0) (default: 25)
+    maxpeers: 50, // Maximum number of network peers (network disabled if set to 0) (default: 25)
     rpcHost: "localhost", // HTTP-RPC server listening interface (default: "localhost")
     rpcPort: 8545, // HTTP-RPC server listening port (default: 8545)
     rpcCorsDomain: "auto",  // Comma separated list of domains from which to accept cross origin requests (browser enforced)
@@ -18,12 +18,12 @@ module.exports = {
       // "address": "", // When specified, uses that address instead of the default one for the network
       password: "config/development/password" // Password to unlock the account
     },
-    targetGasLimit: 8000000, // Target gas limit sets the artificial target gas floor for the blocks to mine
+    targetGasLimit: 80000000, // Target gas limit sets the artificial target gas floor for the blocks to mine
     wsRPC: true, // Enable the WS-RPC server
     wsOrigins: "auto",  // Origins from which to accept websockets requests
                         // When set to "auto", Embark will automatically set the cors to the address of the webserver
     wsHost: "localhost", // WS-RPC server listening interface (default: "localhost")
-    wsPort: 8546, // WS-RPC server listening port (default: 8546)
+    wsPort: 8556, // WS-RPC server listening port (default: 8546)
     simulatorMnemonic: "example exile argue silk regular smile grass bomb merge arm assist farm", // Mnemonic  used by the simulator to generate a wallet
     simulatorBlocktime: 0 // Specify blockTime in seconds for automatic mining. Default is 0 and no auto-mining.
   },
