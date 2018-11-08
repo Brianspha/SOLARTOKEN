@@ -1539,7 +1539,7 @@
       },
       "0x3277114e2f8bdd703b51177558d68e0e3bd537a0eb07a91ce876f6f457bbb3c5": {
         "name": "PlatformToken",
-        "address": "0xa3b26D17B3BD3c76C775D605af6a0e4BE5D7dB78"
+        "address": "0xF998eb14441Da026769586e92462F88E011724C5"
       },
       "0x3e6fad8fa6b23e9b5ae0fe0882c12f460004e79aee69b00615169f47542dd05a": {
         "name": "SolarSwop",
@@ -1595,7 +1595,7 @@
       },
       "0x645d806fe15e6495b9555318a68d28974702f76d0e5ead4a1cadc0b3ca55baf1": {
         "name": "HelperFunctions",
-        "address": "0x6B9B83A0Ce2F6e010052446004a8CcEf324db911"
+        "address": "0xeA121Ae9C66e91ABabe845B26665eCc946Cf8D17"
       },
       "0x4602f21012f066a51bbfc6aea26e37df2d88058ec00ad9fa47afc4340a352507": {
         "name": "XEUASToken",
