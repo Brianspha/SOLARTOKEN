@@ -6,13 +6,13 @@ module.exports = {
       host: "localhost", // Host of the blockchain node
       port: 8545, // Port of the blockchain node
       type: "rpc" // Type of connection (ws or rpc),
-      // Accounts to use instead of the default account to populate your wallet
-      ,accounts: [
-        {
+        // Accounts to use instead of the default account to populate your wallet
+        ,
+      accounts: [{
           // If privateKey is set to `random`, will generate a random account (can be useful for tests)
           privateKey: "0xb8d851486d1c953e31a44374aca11151d49b8bb3",
           balance: "200 ether",
-        },{
+        }, {
           // If privateKey is set to `random`, will generate a random account (can be useful for tests)
           privateKey: "0xf6d5c6d500cac10ee7e6efb5c1b479cfb789950a",
           balance: "200 ether",
@@ -61,14 +61,47 @@ module.exports = {
           "0x774b5341944deac70199a4750556223cb008949b"
         ]
       },
-       XEUASToken:{
-        args:[
+      XEUASToken: {
+        args: [
 
         ]
       },
       SolarSwop: {
         args: [
-         
+
+        ]
+      }
+    }
+  },
+  infura: {
+    deployment: {
+      host: "ropsten.infura.io/v3/1ff323953d2a4cd1ac1cea6ab59a04f5",
+      port: false,
+      protocol: 'https',
+      type: "rpc",
+      accounts: [{
+        "mnemonic": "card since exhaust scan firm employ bullet blur security extra source slush",
+        "numAddresses": "10"
+      }]
+    },
+    gas: "auto",
+    contracts: {
+      XSSToken: {
+        args: [
+          "0x67c496Eb6FA7e8dd39aaF3cFe7a6Bc6f766aa04D",
+          "0xdbf5Cba04c0f5e8a7818FeEcc9436906cfc9B8E4",
+          "0xF826BD5e22Aa20FB6fd3Fb828C4498056CC97116",
+          "0xb878DC641C35EbeeeB9289F14D28C12068daD26A"
+        ]
+      },
+      XEUASToken: {
+        args: [
+       
+        ]
+      },
+      SolarSwop: {
+        args: [
+
         ]
       }
     }

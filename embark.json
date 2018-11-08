@@ -3,11 +3,14 @@
   "app": {
     "css/app.css": ["app/css/**"],
     "js/app.js": ["app/js/index.js"],
+    "img/": ["app/img/**"],
     "images/": ["app/images/**"],
+    "Main.html":"app/Main.html",
     "index.html": "app/index.html",
     "Profile.html": "app/Profile.html",
      "Products.html": "app/Profile.html",
-     "Exchange.html" :"app/Exchange.html"
+     "Exchange.html" :"app/Exchange.html",
+     "Login-Signup.html":"app/Login-Signup.html"
 
   },
   "buildDir": "dist/",

@@ -16,6 +16,28 @@ import XEUASToken from "Embark/contracts/XEUASToken";
 //EmbarkJS.onReady(() => {
 $(document).ready(() => {
     EmbarkJS.onReady((error) => {
+
+        /**
+         *@dev code for registration page  start
+         */
+        $(".email-signup").hide();
+        $("#signup-box-link").click(function () {
+            $(".email-login").fadeOut(100);
+            $(".email-signup").delay(100).fadeIn(100);
+            $("#login-box-link").removeClass("active");
+            $("#signup-box-link").addClass("active");
+        });
+        $("#login-box-link").click(function () {
+            $(".email-login").delay(100).fadeIn(100);;
+            $(".email-signup").fadeOut(100);
+            $("#login-box-link").addClass("active");
+            $("#signup-box-link").removeClass("active");
+        });
+
+        /**
+         * @dev code for registration end
+         */
+
         /**
          * @dev interaction with CoinAPI start
          */
@@ -111,7 +133,7 @@ $(document).ready(() => {
                             exit: 'animated bounceOutUp'
                         }
                     });
-                    
+
                 }
             })
 
@@ -140,11 +162,15 @@ $(document).ready(() => {
                         animate: {
                             enter: 'animated bounceInDown',
                             exit: 'animated bounceOutUp'
-                        },onShow: function() {
-                            this.css({'width':'auto','height':'auto'});
+                        },
+                        onShow: function () {
+                            this.css({
+                                'width': 'auto',
+                                'height': 'auto'
+                            });
                         },
                     });
-                  
+
                 }
             })
 
@@ -237,12 +263,12 @@ $(document).ready(() => {
             var temp = loggerName;
             var returnValues = "";
             if (!transactionEvents) return "an error ocurred";
-            loggerName = (loggerName=="TokensPurchased" ? transactionEvents.TokensPurchased : loggerName == "Transfer" ? transactionEvents.Transfer : null);
-             if(!loggerName) return "Succesful Transaction error printing transaction hash";
+            loggerName = (loggerName == "TokensPurchased" ? transactionEvents.TokensPurchased : loggerName == "Transfer" ? transactionEvents.Transfer : null);
+            if (!loggerName) return "Succesful Transaction error printing transaction hash";
             var string = "Address: " + loggerName.address + "\n blockHash: " + loggerName.blockHash + "\n BlockNumber: " + loggerName.blockNumber + "\n event: " + loggerName.event + "\n Id: " + loggerName.id + "\n Value returned: " + loggerName.returnValues[0];
             string += "\n Gasused: " + loggerName.cumulativeGasUsed + "\n TransactionHash : " + loggerName.transactionHash + "\n Transactionstatus: " + value.status;
             let transactionsList = JSON.parse(localStorage.getItem('TransactionsList'));
-            returnValues = value.status=="0x1"?"Succesfull Transaction":"Something went wrong during transaction";
+            returnValues = value.status == "0x1" ? "Succesfull Transaction" : "Something went wrong during transaction";
             var toReturn = (returnValues.message != null) ? returnValues.message : returnValues.count; //@Dev if you were to create function within your smart contracts that return various data types you would have to add those variables 
             if (transactionsList == null) {
                 transactionsList = [];

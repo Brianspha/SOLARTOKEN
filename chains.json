@@ -1558,5 +1558,81 @@
         "address": "0x2aB41c38D066523E13112130AE655f73cC37Ae78"
       }
     }
+  },
+  "0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d": {
+    "contracts": {
+      "0xc6bc665828246a5534ee183fac2982dafa5870b9ade9b51fc754695d2e0d7bc2": {
+        "name": "XSSToken",
+        "address": "0xFE26CBb02831721646D2151EF5361c9828A74b93"
+      },
+      "0xd5584887cec1411cb67303ab664f6a61d7d283eb0a9bc52c2047a97a910c0bd5": {
+        "name": "SolarSwop",
+        "address": "0xD9F514F968BBa06625Bf4E7E069713b8E80dB396"
+      },
+      "0x04555371cf48b31db05dbaf355a07c4fff65d04d3d74456a3a73bb26512fff2e": {
+        "name": "BokkyPooBahsDateTimeLibrary",
+        "address": "0xF582185B1f6417650Ebe15fA8D52143218D095e5"
+      },
+      "0x082a6145f864e06fe10b5ef29a80954b2828b7088aacbc052876b9accc16b242": {
+        "name": "DateTime",
+        "address": "0xC374C1119D51EABc842AF4fDE45D24a09E204D00"
+      },
+      "0x58099995f5547ba63dd00891878a760ca7ff5389bce96fba2d56eb5145377b98": {
+        "name": "ERC20",
+        "address": "0x089918013B9534456Fbf295C38Fa23C28feC9708"
+      },
+      "0x864cdb29e2c3442128abf04271d626b2fc51c5960105bf71e92d5aa6237f19a9": {
+        "name": "ERC20Burnable",
+        "address": "0xFdAf721208F089B90B8820a028759a088749f71c"
+      },
+      "0xb7bd6eb12f308ef0bef7f0d3e3efd5b1d7e6c7d4dd5dc0501b8c5ea46d3ffe5d": {
+        "name": "ERC20Mintable",
+        "address": "0x03dCD5D3B2DA1a53bf2D9E2b5C113AFe159F4dB9"
+      },
+      "0x3cbf017e69493135dc462d82e809f6d056b6a3c44be27de5e678430c5a717847": {
+        "name": "ERC20Pausable",
+        "address": "0x429fE57fF91E1B48890622e3bBfC71aE5Cd424Da"
+      },
+      "0x645d806fe15e6495b9555318a68d28974702f76d0e5ead4a1cadc0b3ca55baf1": {
+        "name": "HelperFunctions",
+        "address": "0x94F5450706d5E059cDFF7F5D1A4113fF3ee0F3cb"
+      },
+      "0x4602f21012f066a51bbfc6aea26e37df2d88058ec00ad9fa47afc4340a352507": {
+        "name": "XEUASToken",
+        "address": "0x6B246384255FE0F9C1046a30D45F8420f971668f"
+      },
+      "0x3277114e2f8bdd703b51177558d68e0e3bd537a0eb07a91ce876f6f457bbb3c5": {
+        "name": "PlatformToken",
+        "address": "0xe61C22e4C6404F937dA77355478E96B1e23d331E"
+      },
+      "0x68cc22434b5fe302bf8760c16ca92f606650b915a19e7cdb9f02625feccea9bb": {
+        "name": "SafeERC20",
+        "address": "0x1de375d2879E4ddc3A40C88242458EB48164B391"
+      },
+      "0x65d5c6e5c2275201bea940be2f394c4d32d2251c8fe1910e7e26fb66b318c03e": {
+        "name": "Roles",
+        "address": "0x541b6556EAb7f74EF2F30501F581Cb6E02B39a30"
+      },
+      "0xdfe9c8e1110926560e2e0dcd34acc8dc30b288ec7af538b6af2b0bb8770edb53": {
+        "name": "MinterRole",
+        "address": "0x3C19995706D3477C6eCAF2EdeFc1D926912fE93B"
+      },
+      "0x7afdd7505c867b4bc20600822cbbd2cbb11609abb51dfe854803534ac6b60562": {
+        "name": "PauserRole",
+        "address": "0xaE2798E425b0D962680E3D34589270E6d99F4428"
+      },
+      "0x591c3ad11449d9e05a36b1d4993e30f5ed4bd47470bf80d7fa67f4fc32b5df91": {
+        "name": "Pausable",
+        "address": "0x33bc509636b0D25B0F3cfd3df7494C9065D63551"
+      },
+      "0x3db4bdaa5b914831613a7669c95f76f375f7ec66d8dd20c3659146614dd928dc": {
+        "name": "SafeMath",
+        "address": "0xdf0A678cd01C0a0990Dee48D5504dC7053c84f8c"
+      },
+      "0x4d874bfb39884d192a751b012bca66ade700d03964d13fcd2bbebd5d734a7e82": {
+        "name": "Ownable",
+        "address": "0x87f5523e37A77edbC09A8A79A0d51CEBFA4D998F"
+      }
+    }
   }
 }
