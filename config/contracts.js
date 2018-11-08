@@ -3,10 +3,13 @@ module.exports = {
   default: {
     // Blockchain node to deploy the contracts
     deployment: {
-      host: "localhost", // Host of the blockchain node
-      port: 8545, // Port of the blockchain node
-      type: "rpc" // Type of connection (ws or rpc),
-        // Accounts to use instead of the default account to populate your wallet
+      development: {
+        enabled: true,
+        provider: "ipfs",
+        host: "ipfs.infura.io",
+        port: 80,
+        protocol: "https",
+        getUrl: "https://ipfs.infura.io/ipfs/"
         ,
       accounts: [{
           // If privateKey is set to `random`, will generate a random account (can be useful for tests)
@@ -96,7 +99,7 @@ module.exports = {
       },
       XEUASToken: {
         args: [
-       
+     
         ]
       },
       SolarSwop: {
