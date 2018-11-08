@@ -108,6 +108,13 @@ $(document).ready(() => {
         });
 
 
+        /**
+         * @dev sigin button click
+         */
+        $("#Signin").click(function(e){
+            //location.href="Main.html";
+        });
+
         $("#DoneXEUAS").click(function (e) {
             var xeuas = $("#form-Ether1").val();
             xeuas = Math.round(xeuas);

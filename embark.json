@@ -10,7 +10,9 @@
     "Profile.html": "app/Profile.html",
      "Products.html": "app/Profile.html",
      "Exchange.html" :"app/Exchange.html",
-     "Login-Signup.html":"app/Login-Signup.html"
+     "login.html":"app/login.html",
+     "register.html":"app/register.html",
+     "forgot.html":"app/forgot.html"
 
   },
   "buildDir": "dist/",
