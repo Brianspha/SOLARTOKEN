@@ -8,7 +8,7 @@
 #BODY {
     width: 100%;
     height: 100vh;
-    background: url("/app/images/wind.jpg") top center;
+    background: url("../images/wind.jpg") top center;
     background-size: cover;
     position: relative;
 }
