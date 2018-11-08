@@ -5,10 +5,16 @@
 }
 
 /*Registration Styling END*/
-#BODY {
+/* #BODY {
     width: 100%;
     height: 100vh;
     background: url("../images/wind.jpg") top center;
+    background-size: cover;
+    position: relative;
+} */
+
+html {
+	background: url("../images/wind.jpg") top center;
     background-size: cover;
     position: relative;
 }
