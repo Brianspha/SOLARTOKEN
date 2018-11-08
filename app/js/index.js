@@ -111,8 +111,8 @@ $(document).ready(() => {
         /**
          * @dev sigin button click
          */
-        $("#Sigin").click(function(e){
-            window.href="Main.html";
+        $("#Signin").click(function(e){
+            //location.href="Main.html";
         });
 
         $("#DoneXEUAS").click(function (e) {
