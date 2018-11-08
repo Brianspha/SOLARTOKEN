@@ -112,10 +112,16 @@ $(document).ready(() => {
          * @dev sigin button click
          */
         $("#Signin").click(function(e){
-            //location.href="Main.html";
+            alert("Got here");
+            window.location.replace("./Main.html");
         });
 
         $("#DoneXEUAS").click(function (e) {
+            var account;
+        web3.eth.getAccounts().then(function (e) {
+            account = e[0];
+            console.log(account);
+        
             var xeuas = $("#form-Ether1").val();
             xeuas = Math.round(xeuas);
             XEUASToken.methods.BuyTokens().send({
@@ -143,10 +149,15 @@ $(document).ready(() => {
 
                 }
             })
+        })
 
         })
 
         $("#DoneXSS").click(function () {
+            var account;
+            web3.eth.getAccounts().then(function (e) {
+                account = e[0];
+                console.log(account);
             var xss = $("#form-Ether").val();
             xss = Math.round(xss);
             XSSToken.methods.BuyTokens().send({
@@ -180,6 +191,7 @@ $(document).ready(() => {
 
                 }
             })
+        })
 
         })
         // previous step
