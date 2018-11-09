@@ -111,45 +111,45 @@ $(document).ready(() => {
         /**
          * @dev sigin button click
          */
-        $("#Signin").click(function(e){
+        $("#Signin").click(function (e) {
             alert("Got here");
             window.location.replace("./Main.html");
         });
 
         $("#DoneXEUAS").click(function (e) {
             var account;
-        web3.eth.getAccounts().then(function (e) {
-            account = e[0];
-            console.log(account);
-        
-            var xeuas = $("#form-Ether1").val();
-            xeuas = Math.round(xeuas);
-            XEUASToken.methods.BuyTokens().send({
-                from: account,
-                gas: 4000000,
-                value: xeuas * 10 ** 18
-            }).then(function (val, err) {
-                if (err) {
-                    alert("Something went wrong");
-                } else {
-                    var value = outputTransactionRecipt(val, "TokensPurchased");
-                    $.notify(value, {
-                        allow_dismiss: false,
-                        placement: {
-                            from: 'bottom',
-                            align: 'center',
-                            delay: 10000,
-                            mouse_over: "pause"
-                        },
-                        animate: {
-                            enter: 'animated bounceInDown',
-                            exit: 'animated bounceOutUp'
-                        }
-                    });
+            web3.eth.getAccounts().then(function (e) {
+                account = e[0];
+                console.log(account);
 
-                }
+                var xeuas = $("#form-Ether1").val();
+                xeuas = Math.round(xeuas);
+                XEUASToken.methods.BuyTokens().send({
+                    from: account,
+                    gas: 4000000,
+                    value: xeuas * 10 ** 18
+                }).then(function (val, err) {
+                    if (err) {
+                        alert("Something went wrong");
+                    } else {
+                        var value = outputTransactionRecipt(val, "TokensPurchased");
+                        $.notify(value, {
+                            allow_dismiss: false,
+                            placement: {
+                                from: 'bottom',
+                                align: 'center',
+                                delay: 10000,
+                                mouse_over: "pause"
+                            },
+                            animate: {
+                                enter: 'animated bounceInDown',
+                                exit: 'animated bounceOutUp'
+                            }
+                        });
+
+                    }
+                })
             })
-        })
 
         })
 
@@ -158,42 +158,205 @@ $(document).ready(() => {
             web3.eth.getAccounts().then(function (e) {
                 account = e[0];
                 console.log(account);
-            var xss = $("#form-Ether").val();
-            xss = Math.round(xss);
-            XSSToken.methods.BuyTokens().send({
-                gas: 4000000,
-                from: account,
-                value: xss * 10 ** 18
-            }).then(function (val, err) {
-                if (err) {
-                    alert("Something went wrong");
-                } else {
-                    var value = outputTransactionRecipt(val, "TokensPurchased");
-                    $.notify(value, {
-                        allow_dismiss: false,
-                        placement: {
-                            from: 'bottom',
-                            align: 'center',
-                            delay: 10000,
-                            mouse_over: "pause"
-                        },
-                        animate: {
-                            enter: 'animated bounceInDown',
-                            exit: 'animated bounceOutUp'
-                        },
-                        onShow: function () {
-                            this.css({
-                                'width': 'auto',
-                                'height': 'auto'
-                            });
-                        },
-                    });
+                var xss = $("#form-Ether").val();
+                xss = Math.round(xss);
+                XSSToken.methods.BuyTokens().send({
+                    gas: 4000000,
+                    from: account,
+                    value: xss * 10 ** 18
+                }).then(function (val, err) {
+                    if (err) {
+                        alert("Something went wrong");
+                    } else {
+                        var value = outputTransactionRecipt(val, "TokensPurchased");
+                        $.notify(value, {
+                            allow_dismiss: false,
+                            placement: {
+                                from: 'bottom',
+                                align: 'center',
+                                delay: 10000,
+                                mouse_over: "pause"
+                            },
+                            animate: {
+                                enter: 'animated bounceInDown',
+                                exit: 'animated bounceOutUp'
+                            },
+                            onShow: function () {
+                                this.css({
+                                    'width': 'auto',
+                                    'height': 'auto'
+                                });
+                            },
+                        });
 
-                }
+                    }
+                })
             })
-        })
 
         })
+
+        /**
+         * View Balance button
+         */
+        $("#accountBalance").click(function (e) {
+            e.preventDefault();
+            var address = $("#AccountToView").val();
+            if (address == "") {
+                $.notify("Invalid address or address box is empty", {
+                    allow_dismiss: false,
+                    type: "danger",
+                    placement: {
+                        from: 'bottom',
+                        align: 'center',
+                        delay: 10000,
+                        mouse_over: "pause"
+                    },
+                    animate: {
+                        enter: 'animated bounceInDown',
+                        exit: 'animated bounceOutUp'
+                    },
+                    onShow: function () {
+                        this.css({
+                            'width': 'auto',
+                            'height': 'auto'
+                        });
+                    },
+                });
+                return;
+            }
+            var whichToken = $('#SelectLm option:selected').text();
+            if (whichToken == "XSS") {
+                web3.eth.getAccounts().then(function (e) {
+                   var account = e[0];
+                    console.log(account);
+                    XSSToken.methods.balanceOf(account).call({
+                        gas: 4000000,
+                        from: account
+                    }).then(function (val, err) {
+                        if (err) {
+                            $.notify("Something went wrong please try again", {
+                                allow_dismiss: false,
+                                type: "danger",
+                                placement: {
+                                    from: 'bottom',
+                                    align: 'center',
+                                    delay: 10000,
+                                    mouse_over: "pause"
+                                },
+                                animate: {
+                                    enter: 'animated bounceInDown',
+                                    exit: 'animated bounceOutUp'
+                                },
+                                onShow: function () {
+                                    this.css({
+                                        'width': 'auto',
+                                        'height': 'auto'
+                                    });
+                                },
+                            });
+                        } else
+                            $.notify("XSS Token Balance= " + val, {
+                                allow_dismiss: false,
+                                type: "success",
+                                placement: {
+                                    from: 'bottom',
+                                    align: 'center',
+                                    delay: 10000,
+                                    mouse_over: "pause"
+                                },
+                                animate: {
+                                    enter: 'animated bounceInDown',
+                                    exit: 'animated bounceOutUp'
+                                },
+                                onShow: function () {
+                                    this.css({
+                                        'width': 'auto',
+                                        'height': 'auto'
+                                    });
+                                },
+                            });
+                        document.getElementById("outPut").innerHTML = "XSS Token Balance= " + val;
+                    })
+                })
+            } else if (whichToken == "XEAUS") {
+                web3.eth.getAccounts().then(function (e) {
+                   var account = e[0];
+                    console.log(account);
+                    XSSToken.methods.balanceOf(account).call({
+                        gas: 4000000,
+                        from: account
+                    }).then(function (val, err) {
+                        if (err) {
+                            $.notify("Something went wrong please try again", {
+                                allow_dismiss: false,
+                                type: "danger",
+                                placement: {
+                                    from: 'bottom',
+                                    align: 'center',
+                                    delay: 10000,
+                                    mouse_over: "pause"
+                                },
+                                animate: {
+                                    enter: 'animated bounceInDown',
+                                    exit: 'animated bounceOutUp'
+                                },
+                                onShow: function () {
+                                    this.css({
+                                        'width': 'auto',
+                                        'height': 'auto'
+                                    });
+                                },
+                            });
+                        } else {
+                            $.notify("XEUAS Token Balance= " + val, {
+                                allow_dismiss: false,
+                                type: "success",
+                                placement: {
+                                    from: 'bottom',
+                                    align: 'center',
+                                    delay: 10000,
+                                    mouse_over: "pause"
+                                },
+                                animate: {
+                                    enter: 'animated bounceInDown',
+                                    exit: 'animated bounceOutUp'
+                                },
+                                onShow: function () {
+                                    this.css({
+                                        'width': 'auto',
+                                        'height': 'auto'
+                                    });
+                                },
+                            });
+                            document.getElementById("outPut").innerHTML = "XEUAS Token Balance= " + val;
+                        }
+                    })
+                })
+            } else {
+                $.notify("Something went wrong please try again", {
+                    allow_dismiss: false,
+                    type: "danger",
+                    placement: {
+                        from: 'bottom',
+                        align: 'center',
+                        delay: 10000,
+                        mouse_over: "pause"
+                    },
+                    animate: {
+                        enter: 'animated bounceInDown',
+                        exit: 'animated bounceOutUp'
+                    },
+                    onShow: function () {
+                        this.css({
+                            'width': 'auto',
+                            'height': 'auto'
+                        });
+                    },
+                });
+            }
+
+
+        });
         // previous step
         $('.btn-previous').click(function () {
             $(this).parents('fieldset').fadeOut(400, function () {

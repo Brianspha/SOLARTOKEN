@@ -8,11 +8,13 @@
     "Main.html":"app/Main.html",
     "index.html": "app/index.html",
     "Profile.html": "app/Profile.html",
-     "Products.html": "app/Profile.html",
+     "Products.html": "app/Products.html",
      "Exchange.html" :"app/Exchange.html",
      "login.html":"app/login.html",
      "register.html":"app/register.html",
-     "forgot.html":"app/forgot.html"
+     "forgot.html":"app/forgot.html",
+     "Projects.html":"app/Projects.html"
+
 
   },
   "buildDir": "dist/",
