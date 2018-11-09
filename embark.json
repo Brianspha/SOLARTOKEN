@@ -13,7 +13,9 @@
      "login.html":"app/login.html",
      "register.html":"app/register.html",
      "forgot.html":"app/forgot.html",
-     "Projects.html":"app/Projects.html"
+     "Projects.html":"app/Projects.html",
+     "js/TransactionHistory.js":["app/js/TransactionHistory.js"],
+     "BlockchainHistory.html":"app/BlockchainHistory.html"
 
 
   },

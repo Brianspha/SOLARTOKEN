@@ -107,15 +107,39 @@ $(document).ready(() => {
 
         });
 
+        /**
+         * Smooth Scrolling start
+         */
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+            
+            var position = $($(this).attr("href")).offset().top;
+        
+            $("body, html").animate({
+                scrollTop: position
+            } ,1000 );
+        });;
 
+        /**
+         * End
+         */
         /**
          * @dev sigin button click
          */
         $("#Signin").click(function (e) {
-            alert("Got here");
+            e.preventDefault();
             window.location.replace("./Main.html");
         });
 
+        /**
+         * End
+         */
+        /**
+         * @dev sigin button signup
+         */
+        $("#SigninM").click(function (e) {
+            window.location.replace("./login.html");
+        });
         $("#DoneXEUAS").click(function (e) {
             var account;
             web3.eth.getAccounts().then(function (e) {
@@ -227,7 +251,7 @@ $(document).ready(() => {
             var whichToken = $('#SelectLm option:selected').text();
             if (whichToken == "XSS") {
                 web3.eth.getAccounts().then(function (e) {
-                   var account = e[0];
+                    var account = e[0];
                     console.log(account);
                     XSSToken.methods.balanceOf(account).call({
                         gas: 4000000,
@@ -255,7 +279,7 @@ $(document).ready(() => {
                                 },
                             });
                         } else
-                            $.notify("XSS Token Balance= " + val, {
+                            $.notify("XSS Token Balance= " + val/10**18, {
                                 allow_dismiss: false,
                                 type: "success",
                                 placement: {
@@ -275,14 +299,14 @@ $(document).ready(() => {
                                     });
                                 },
                             });
-                        document.getElementById("outPut").innerHTML = "XSS Token Balance= " + val;
+                        document.getElementById("outPut").innerHTML = "XSS Token Balance= " + val/10**18;
                     })
                 })
             } else if (whichToken == "XEAUS") {
                 web3.eth.getAccounts().then(function (e) {
-                   var account = e[0];
+                    var account = e[0];
                     console.log(account);
-                    XSSToken.methods.balanceOf(account).call({
+                    XEUASToken.methods.balanceOf(account).call({
                         gas: 4000000,
                         from: account
                     }).then(function (val, err) {
@@ -308,7 +332,7 @@ $(document).ready(() => {
                                 },
                             });
                         } else {
-                            $.notify("XEUAS Token Balance= " + val, {
+                            $.notify("XEUAS Token Balance= " + val/10**18, {
                                 allow_dismiss: false,
                                 type: "success",
                                 placement: {
@@ -328,7 +352,7 @@ $(document).ready(() => {
                                     });
                                 },
                             });
-                            document.getElementById("outPut").innerHTML = "XEUAS Token Balance= " + val;
+                            document.getElementById("outPut").innerHTML = "XEUAS Token Balance= " + val/10**18;
                         }
                     })
                 })
