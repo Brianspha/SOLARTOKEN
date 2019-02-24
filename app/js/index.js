@@ -478,19 +478,7 @@ $(document).ready(() => {
             var toReturn = (returnValues.message != null) ? returnValues.message : returnValues.count; //@Dev if you were to create function within your smart contracts that return various data types you would have to add those variables 
             if (transactionsList == null) {
                 transactionsList = [];
-                transactionsList.push({
-                    Signiture: loggerName.signature,
-                    Address: loggerName.address,
-                    BlockHash: loggerName.blockHash,
-                    BlockNumber: loggerName.blockNumber,
-                    GasUsed: value.cumulativeGasUsed,
-                    TransactionHash: loggerName.transactionHash,
-                    TransactionStatus: value.status,
-                    ValueReturned: toReturn
-                });
-                localStorage.setItem('TransactionsList', JSON.stringify(transactionsList));
-                //names in the above conditional statement likes so  (returnValues.message!=null)? returnValues.message:returnValues.count!=null?:returnValues.count: then check for the next thing your looking for etc
-            }
+                }
             transactionsList.push({
                 Signiture: loggerName.signature,
                 Address: loggerName.address,
